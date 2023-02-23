@@ -1,0 +1,150 @@
+/* Site Header */
+.site-header {
+    display: block;
+    width: 100vw;
+    height: 2.8rem;
+    background: #9EA57F;
+    z-index: 99999;
+}
+
+.site-header__wrapper {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.site-header__logo {
+
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+}
+
+.site-header__logo img {
+    display: inline-block;
+}
+
+.site-header__menu { 
+    overflow: hidden;
+    width: 17.5rem;
+    height: 100%;
+    position: absolute;
+    background-color: #FAF0E1;
+    box-shadow: var(--box-shadow);
+    top: 1rem;
+    right: 0;
+    transform: translateX(100%);
+    transition: transform 0.25s ease;
+}
+
+.site-header__menu.open {
+    transform: translateX(0);
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.site-header__menu a {
+    color: #475826;
+    display: block;
+    border-bottom: 1px solid #475826;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+}
+
+
+
+.site-header__close {
+    font-size: 1.5rem;
+    position: bottom;
+    right: 0;
+    padding: 0;
+}
+
+.site-header__close a {
+    border-bottom: unset;
+    padding: 0.75rem;
+}
+
+/* Icon */
+.site-header__menu-icon {
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    box-shadow: var(--box-shadow);
+    position: absolute;
+    right: 10px;
+}
+
+.site-header__menu-icon a {
+    color: #475826;
+    line-height: 0;
+    padding: 0.5rem;
+}
+
+.site-header__menu-icon:hover {cursor: pointer; }
+
+
+
+
+	
+@media (min-width: 360px) {
+    .site-header {
+        top: unset;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+    .site-header__logo img {
+        width: 30%;
+
+    }
+
+    .site-header__menu { 
+        position: fixed;
+        bottom: 0;
+}
+}
+
+@media (min-width: 700px) {
+
+    .site-header__menu {
+        position: unset;
+        transform: unset !important;     
+    }
+
+    .site-header__close,
+    .site-header__menu-icon {
+        display: none;
+    }
+
+    .site-header__menu {
+        background-color: unset;
+        box-shadow: unset;
+    }
+
+    .site-header__menu ul {
+        border-radius: unset;
+        display: flex;
+        gap: 1.5rem;
+    }
+
+    .site-header__menu a {
+        color: #475826;
+        display: inline-block;
+        border-bottom: unset;
+        padding: unset;
+    }  
+    
+    .site-header__menu {
+        width: unset;
+    }
+
+}

@@ -1,0 +1,443 @@
+/****** GLOBAL ******/
+    * {
+        font-family: 'Lexend', sans-serif;
+    }
+    hr {
+        color: #475826;
+    }
+    body {
+        background-color: #FAF0E1;
+        min-height: 100vh;
+    }
+
+/* Airrick added this remove if it mucks up things*/
+    body {
+        display: flex;
+        flex-direction: column;  
+    }
+
+    main {
+        flex-grow: 1;
+    }
+
+    section {
+        padding-bottom: 15px;
+    }
+/****** Helper ******/
+    .flex {
+        display: flex;
+    }
+    .flex-start {
+        align-content: flex-start;
+    }
+    .alight-end {
+        align-items: flex-end;
+    }
+    .flex-middle {
+        justify-content: center;
+    }
+    .flex-row {
+        flex-direction: row;
+    }
+    .flex-between {
+        justify-content: space-between;
+    }
+    .flex-around {
+        justify-content: space-around;
+    }
+    .center {
+        align-items: center;
+    }
+    .strech {
+        align-items: stretch;
+    }
+
+    .flex-end {
+        justify-content: flex-end;
+    }
+    .menu a {
+        text-decoration: none;
+        justify-content: space-around;
+        color:#475826;
+    }
+    .left-pad {
+        padding-left: .1rem;
+    }
+
+    .right-pad {
+        padding-right: .75rem;
+    }
+    .top-pad {
+        padding-top: .75rem;
+    }
+
+/****** HEADER ******/
+    /* header {
+        width: 100%;
+        height: auto;
+        position: fixed;
+        z-index: 999;
+        background-color: #faf0e1;
+    }
+    .site-header {
+        padding: 1.25rem 1.5rem 0rem 1.5rem;
+
+        
+    }
+    .site-header__logo img {
+    width: 11rem;
+    max-width: 100%;
+    padding-left: 1rem;
+    }
+    .site-header__menu {
+        flex-grow: 1;
+
+    }
+
+    .site-header__menu a{
+        font-size: .75rem;
+    }
+    .site-header__menu nav ul.flex {
+        column-gap: 0.5rem;
+    } */
+
+/****** MAIN ******/
+    .page-content {
+        margin: auto;
+        padding-top: 2rem;
+        padding-bottom: 3rem;
+
+    }
+
+    .intro {
+        padding-left: 3rem;
+        padding-right:3rem;
+        justify-content: space-around;
+    }
+    .intro p{
+        font-weight: 100;
+    }
+    .container {
+        display: flex;
+
+    }
+    .about-me{
+        margin-right: 5rem;
+    }
+
+/****** IMAGES ******/
+    .head-shot {
+        border-radius: 50%;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        height: 150px;
+        width: 150px;
+    }
+    .about-selfie{
+        height: 400px;
+        width: auto;
+        margin-bottom: 3rem;
+        padding-right: 1.5;
+        margin-top: 8rem;
+
+    }
+    .circles {
+        height: 500px;
+        width: auto;
+        margin-top: -30rem;
+    }
+
+.maitaime_banner{
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 100px;
+
+}
+    .amazon-logo {
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 85%;
+        margin-top: 80px;
+        margin-bottom: 5rem;
+    }
+    .glamazon-logo {
+        height: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 75%;
+        margin-top: 80px;
+        margin-bottom: 1rem;
+    }
+    .cpc-logo {
+        height: auto;
+        width: auto;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+        margin-top: 80px;
+        margin-bottom: 1rem;
+    }
+    .art-con img{
+        padding-bottom: 1 2rem 2rem 1rem;
+    }
+    .thumb-img {
+        width: 400px;
+        height: auto;
+    }
+
+
+
+/****** TYPOGRAPHY ******/
+    h1 {
+        color: #475826;
+    }
+    h2 {
+        color: #475826;
+    }
+    h3 {
+        color: #475826;
+        font-size: 2.5rem;
+    }
+    h4 {
+        color: #475826;
+    }
+    p {
+        color: #475826;
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    .a {
+        text-decoration: none;
+    }
+     .intro h1 {
+        font-weight: 200;
+        font-size: 1rem;
+        letter-spacing: .1rem;
+    }
+    .intro h2 {
+        font-weight: 400;
+        font-size: 1.2rem;
+        letter-spacing: .2rem;
+    }
+    .intro p {
+        font-weight: 200;
+        font-size: 1rem;
+        letter-spacing: .1rem;
+
+    }
+    .main-timeline9 a {
+        text-decoration: none;
+        color: #B97831;
+    }
+    .art-con a{
+        text-decoration: none;
+        color: #B97831;
+    }
+    .wave {
+        margin-top: -20px;
+    }
+    .feat-head {
+        padding: 1.5rem 0rem 1.5rem 3rem;
+        letter-spacing:.2rem;    
+    }
+    hr{
+        width: 60%;
+        border-color: #475826;
+    }
+
+/****** PROJECT CARDS ******/
+
+.card {
+    color: #FCF5EB;
+    width: 360px;
+    height: 380px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+    border-radius: 15px ;
+    text-decoration: none;
+
+}
+.card-text {
+    color: #475826;
+    padding: 1rem;
+    text-decoration: none;
+
+
+}
+.card-content h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: .8rem;
+    margin: 1rem;
+
+}
+
+.card-content p {
+    font-size: .8rem;
+    margin: 1rem;
+}
+
+.card img {
+    width: 359px;
+    height: 126.67px;
+    border-radius: 15px 15px 0 0;
+}
+
+
+
+
+/****** Artifacts ******/
+
+    .art-container {
+        padding-top: 5rem;
+        padding-bottom: 10rem;
+        width: 850px;
+        margin: auto;
+    }
+
+    .art-head {
+        display: flex;
+        justify-content: space-between;
+        line-height: 20px;
+    }
+    .art-container h1 {
+        font-weight: 400;
+        font-size: 3rem;
+    }
+    .art-container h2 {
+        font-weight: 200;
+        font-size: 2rem;
+    }
+    .art-container h3 {
+        font-weight: 400;
+        font-size: 1.5rem;
+
+    }
+    .art-container h4 {
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    .art-container p{
+        font-weight: 200;
+        font-size: 1.2rem;
+    }
+    .art-con a {
+        text-align: none;
+    }
+    .art-con{
+        padding: 2.5rem;
+    }
+    .art-con2 {
+        padding: 2.5rem;
+    }
+/********* BUTTONS *********/
+.btn {
+    display: flex;
+    justify-content: center;
+    
+}
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.7rem 2rem;
+    font-weight: 300;
+    font-size: 1rem;
+    letter-spacing:.4rem;    
+    text-align: center;
+    text-decoration: none;
+    color: #FAF0E1;
+    background-color: #808E4A;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 3rem;
+  }
+  .bn38 {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+    
+  .bn38:hover {
+    background-color: #475826;
+  }
+
+/**********************************************************************
+MEDIA QUERIES
+***********************************************************************/
+
+
+@media (min-width: 1290px) {
+/********* TYPO *********/
+
+
+
+
+/******** ARTIFACT CARDS **********/
+    .card {
+        color: #FCF5EB;
+        width: 1283px;
+        height: 375px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        border-radius: 15px ;
+        text-decoration: none;
+
+    
+    }
+    .card-text {
+        color: #475826;
+        padding: 1.2rem;
+        text-decoration: none;
+        margin-left: 42rem;
+        margin-top: -24rem;
+        
+    
+    
+    }
+    .card-content h4 {
+        font-size: 2.3rem;
+        font-weight: 400;
+        line-height: 3rem;
+        padding-bottom: .5rem;
+
+    }
+    
+    .card-content .card-desc {
+        font-size: 1.5rem;
+        
+
+    }
+    .card-content .card-dis {
+        font-size: 1.3rem;
+        padding-bottom: .5rem;
+
+    }
+    
+    .card img {
+        width: auto;
+        height: 375px;
+        max-width: 680px;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 15px 0 0 15px;
+    }    
+
+/********** BUTTONS ***********/
+.btn {
+display: flex;
+justify-content: flex-end;
+margin-top: -1rem;
+margin-right: 4rem;
+}
+
+}
