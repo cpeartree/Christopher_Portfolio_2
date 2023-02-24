@@ -259,7 +259,7 @@
     width: 360px;
     height: 380px;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
     border-radius: 15px ;
     text-decoration: none;
@@ -351,7 +351,7 @@
     padding: 0.7rem 2rem;
     font-weight: 300;
     font-size: 1rem;
-    letter-spacing:.4rem;    
+    letter-spacing: .4rem;
     text-align: center;
     text-decoration: none;
     color: #FAF0E1;
@@ -372,13 +372,98 @@
 /**********************************************************************
 MEDIA QUERIES
 ***********************************************************************/
+@media (min-width: 480px){
+    .page-content {
+        margin: auto;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .site-header__menu {
+        height: 50px;
+    }
+}
 
+@media (min-width: 736px) {
+    .page-content {
+        margin: auto;
+        padding-top: 6rem;
+        padding-bottom: 3rem;
+
+    } 
+
+    /******** ARTIFACT CARDS **********/
+    .card {
+        color: #FCF5EB;
+        width: 700px;
+        height: 204px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        border-radius: 15px ;
+        text-decoration: none;
+
+    
+    }
+    .card-text {
+        color: #475826;
+        padding: 1.2rem;
+        text-decoration: none;
+        margin-left: 24rem;
+        margin-top: -14rem;
+        
+    
+    
+    }
+    .card-content h4 {
+        font-size: 1.2rem;
+        font-weight: 400;
+        line-height: 1.2rem;
+
+    }
+    
+    .card-content .card-desc {
+        font-size: .6rem;
+        
+
+    }
+    .card-content .card-dis {
+        font-size: .8rem;
+
+    }
+    
+    .card img {
+        width: auto;
+        height: 204px;
+        max-width: 400px;
+        overflow: hidden;
+        object-fit: cover;
+        border-radius: 15px 0 0 15px;
+    }  
+    
+    .bn3637 {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0.4rem 1rem;
+        font-weight: 300;
+        font-size: .6rem;
+        letter-spacing:.3rem;    
+        text-align: center;
+        text-decoration: none;
+        color: #FAF0E1;
+        background-color: #808E4A;
+        backface-visibility: hidden;
+        border: 0.3rem solid transparent;
+        border-radius: 3rem;
+      }
+    .btn {
+        /* margin-top: -1rem; */
+        /* margin-right: -28rem; */
+}
+}
 
 @media (min-width: 1290px) {
-/********* TYPO *********/
-
-
-
 
 /******** ARTIFACT CARDS **********/
     .card {

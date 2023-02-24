@@ -114,8 +114,8 @@ h6 {
 
 @media (min-width: 480px) {
 	.ftr-link{
-	padding-left:  5rem;
-	padding-right: 5rem;
+	padding-left:  6rem;
+	padding-right: 6rem;
 }
 	.ftr-link a{
 		font-size: .8rem;
@@ -124,7 +124,19 @@ h6 {
 }
 @media (min-width: 767px) {
 	.ftr-link{
+		padding-left: 12rem;
+		padding-right: 12rem;
+	}
+	.ftr-link a{
+		font-size: .8rem;
+	}
+}
+@media (min-width: 900px) {
+	.ftr-link{
 		padding-left: 25rem;
 		padding-right: 25rem;
+	}
+	.ftr-link a{
+		font-size: .8rem;
 	}
 }
