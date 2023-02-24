@@ -3,8 +3,7 @@
     display: block;
     width: 100vw;
     height: 2.8rem;
-    background: rgb(158,165,127);
-background: linear-gradient(0deg, rgba(158,165,127,1) 0%, rgba(250,240,225,1) 100%);
+    background: #9ea57f;
     z-index: 99999;
 }
 
@@ -121,10 +120,9 @@ background: linear-gradient(0deg, rgba(158,165,127,1) 0%, rgba(250,240,225,1) 10
         bottom: unset;
         display: block;
         width: 100vw;
-        height: 2.8rem;
+        height: 3rem;
         background: rgb(158,165,127);
-        background: linear-gradient(180deg, rgba(158,165,127,1) 0%, rgba(250,240,225,1) 100%);
-        z-index: 99999;
+        background: linear-gradient(180deg, rgba(158,165,127,1) 0%, rgba(158,165,127,0.9374343487394958) 75%, rgba(250,240,225,0) 100%);
     }
 
     .site-header__menu {
