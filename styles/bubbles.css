@@ -11,8 +11,7 @@ body {
   .bokeh {
     animation: bokeh 3s linear;
     position: absolute;
-    margin-top: -3rem;
-    overflow: hidden;
+
     z-index: -10;
 
   }
