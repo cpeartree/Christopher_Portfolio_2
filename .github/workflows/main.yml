@@ -12,5 +12,5 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.3.3
       with:
         server: ftp.hoster906.com
-        username: githubftp@hoster906
+        username: githubftp
         password: ${{ secrets.FTP_PASSWORD }}
