@@ -14,11 +14,13 @@
     <link rel="stylesheet" href="styles/main.css"> 
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/bubbles.css">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+
 </head>
 <body>
     <header class="site-header">
@@ -32,80 +34,170 @@
                 </div>
                 <nav class="site-header__menu js-menu" data-open="0">
                     <ul class="">
-                        <li class="site-header__close"><a href="#" class="js-menu-close"><i class="fa-sharp fa-solid fa-xmark"></i></a></li>
-                        <li><a href="index.html">HOME</a></li>
+                        <li><a class="home" href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
                         <li><a href="uiux.html">UI/UX</a></li>
                         <li><a href="media.html">VISUAL MEDIA</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
                         <li><a href="cpoirier_resume2023.pdf">RESUME</a></li>
+                        <br>
+                        <li class="site-header__close"><a href="#" class="js-menu-close"><i class="fa-sharp fa-solid fa-xmark"></i></a></li>
+
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
     <main class="page-content">
-        <section>
-            <div>
-                <img class="head-shot flex-middle" src="images/headshot.png" alt="Christopher in an office setting wearing a black sweater standing in front of black wall">
+        <!-- <div class="circle-container">
+            <img class="circles" src="images/circles.svg" alt="green circles">
+        </div> -->
+        <div class="bokeh">
+            <div class="pos-detect-top-1"></div>
+            <div class="pos-detect-top-2"></div>
+            <div class="pos-detect-top-3"></div>
+            <div class="pos-detect-top-4"></div>
+            <div class="pos-detect-top-5"></div>
+            <div class="pos-detect-top-6"></div>
+            <div class="pos-detect-top-7"></div>
+            <div class="pos-detect-top-8"></div>
+            <div class="pos-detect-top-9"></div>
+            <div class="pos-detect-top-10"></div>
+            <div class="pos-detect-top-11"></div>
+            <div class="pos-detect-top-12"></div>
+            
+            <div class="pos-detect-center-1"></div>
+            <div class="pos-detect-center-2"></div>
+            <div class="pos-detect-center-3"></div>
+            <div class="pos-detect-center-4"></div>
+            <div class="pos-detect-center-5"></div>
+            <div class="pos-detect-center-6"></div>
+            <div class="pos-detect-center-7"></div>
+            <div class="pos-detect-center-8"></div>
+            <div class="pos-detect-center-9"></div>
+            <div class="pos-detect-center-10"></div>
+            <div class="pos-detect-center-11"></div>
+            <div class="pos-detect-center-12"></div>
+            
+            <div class="pos-detect-bottom-1"></div>
+            <div class="pos-detect-bottom-2"></div>
+            <div class="pos-detect-bottom-3"></div>
+            <div class="pos-detect-bottom-4"></div>
+            <div class="pos-detect-bottom-5"></div>
+            <div class="pos-detect-bottom-6"></div>
+            <div class="pos-detect-bottom-7"></div>
+            <div class="pos-detect-bottom-8"></div>
+            <div class="pos-detect-bottom-9"></div>
+            <div class="pos-detect-bottom-10"></div>
+            <div class="pos-detect-bottom-11"></div>
+            <div class="pos-detect-bottom-12"></div>
+        
+        
+            <div class="background-layer">
+                <div class="bubble-1"></div>
+                <div class="bubble-2"></div>
+                <div class="bubble-3"></div>
+                <div class="bubble-4"></div>
+                <div class="bubble-5"></div>
+                <div class="bubble-6"></div>
+                <div class="bubble-7"></div>
+                <div class="bubble-8"></div>
+                <div class="bubble-9"></div>
+                <div class="bubble-10"></div>
+                <div class="bubble-11"></div>
+                <div class="bubble-12"></div>
             </div>
-            <div class="intro flex-middle">
+        
+            <div class="middleground-layer">
+                <div class="bubble-1"></div>
+                <div class="bubble-2"></div>
+                <div class="bubble-3"></div>
+                <div class="bubble-4"></div>
+                <div class="bubble-5"></div>
+                <div class="bubble-6"></div>
+                <div class="bubble-7"></div>
+                <div class="bubble-8"></div>
+                <div class="bubble-9"></div>
+                <div class="bubble-10"></div>
+                <div class="bubble-11"></div>
+                <div class="bubble-12"></div>
+            </div>
+        
+            <div class="foreground-layer">
+                <div class="bubble-1"></div>
+                <div class="bubble-2"></div>
+                <div class="bubble-3"></div>
+                <div class="bubble-4"></div>
+                <div class="bubble-5"></div>
+                <div class="bubble-6"></div>
+                <div class="bubble-7"></div>
+                <div class="bubble-8"></div>
+                <div class="bubble-9"></div>
+                <div class="bubble-10"></div>
+                <div class="bubble-11"></div>
+                <div class="bubble-12"></div>
+            </div>
+        </div>
+        <section class="welcome">
+            <div>
+                <img class="head-shot " src="images/headshot.png" alt="Christopher in an office setting wearing a black sweater standing in front of black wall">
+            </div>
+            <div class="intro">
                 <div class="flex">
-                    <h2>Hi, I'm Christopher &nbsp;</h2>
-                    <div class="wave">
-                        <h3>&#128075</h3>
-                    </div>
+                    <h2>Hi, <span>&#128075;&#127996;</span><br>I'm Christopher </h2>
                 </div>
                 <br>
                 <h1>I'm a user experience designer who is passionate about creating designs that are inclusive and accessible to all. </h1>
                 <br>
                 <p>My approach to design is grounded in a thorough understanding of user needs and a commitment to solving real-world problems. With a blend of creativity, logic, and research-based design, I strive to craft experiences that are both functional and delightful for everyone.</p>
                 <br>
-                <p>I am in my final term of study at BCIT, and working hard to update my portfolio with my latest projects and designs. Please check back soon to see my updates, or feel free to contact me directly if you would like to see my work in the meantime.</p>
-
-               <br><br>
             </div>
         </section>
-        <div class="feat-head">
-            <h4>FEATURED PROJECTS:</h4>
-        </div>
-        <section class="flex flex-middle">
-            <div class="card">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="images/cato_weather_banner.png">
-                    </div>
-                    <div class="card-text">
-                        <p class="card-dis">UI/UX  / DESIGN / APP DEVELOPMENT</p>
-                        <h4>Cato Weather Application</h4>
-                        <p class="card-desc">Group Project focused on the development of a childrens educational weather application. The project included concept, competitive analysis, assessing market viability and design wireframes.</p></a>
-                        <div class="btn">
-                            <a href="Artifacts/CatoWeather.html" class="bn3637 bn38">VIEW PROJECT</a>
-                        </div>                        
-                    </div>
-
+        <section>
+            <div class="feature-section">
+                <div class="feat-head">
+                    <h4>FEATURED PROJECTS:</h4>
                 </div>
-            </div>
-        </section>
-        <br>
-        <br>
-        <section class="flex flex-middle">
-            <div class="card">
-                <div class="card-content">
-                    <div class="card-img">
-                        <img src="images/cpc.png">
+                <div class="card">
+                    <div class="card-content">
+                        <div class="card-img">
+                            <img class="banner"src="/images/cato_weather_banner.png">
+                            <img class="banner_small" src="images/cato_weather_banner_small.png">
+                        </div>
+                        <div class="card-text">
+                            <p class="card-dis">UI/UX  / DESIGN / APP DEVELOPMENT</p>
+                            <h4>Cato Weather <br> Mobile Application </h4>
+                            <p class="card-desc">Group Project focused on the development of a childrens educational weather application. The project included concept, competitive analysis, assessing market viability and design wireframes.</p></a>
+                            <div class="btn">
+                                <a href="Artifacts/CatoWeather.html" class="bn3637 bn38">VIEW PROJECT</a>
+                            </div>                        
+                        </div>
                     </div>
-                    <div class="card-text">
-                        <p class="card-dis">UI/UX  / USER TESTING</p>
-                        <h4>Chris P Cookies Web & Mobile Design</h4>
-                        <p class="card-desc">Focus on mobile & web interactive designs using Adobe XD and Figma prototyping tools with a an element of user testing and iterative improvements.</p></a>
-                        <div class="btn">
-                            <a href="Artifacts/ChrisPCookies.html" class="bn3637 bn38">VIEW PROJECT</a>
-                        </div>                        
-                    </div>
-
                 </div>
+            <br>
+            <br>
+                    <div class="card">
+                        <div class="card-content">
+                            <div class="card-img">
+                                <img class="banner"src="images/cpc.png">
+                                <img class="banner_small" src="images/cpc_small.png">
+                            </div>
+                            <div class="card-text">
+                                <p class="card-dis">UI/UX  / USER TESTING</p>
+                                <h4>Chris P Cookies <br> Web & Mobile Design</h4>
+                                <p class="card-desc">Focus on mobile & web interactive designs using Adobe XD and Figma prototyping tools with a an element of user testing and iterative improvements.</p></a>
+                                <div class="btn">
+                                    <a href="Artifacts/ChrisPCookies.html" class="bn3637 bn38">VIEW PROJECT</a>
+                                </div>                        
+                            </div>
+                        </div>
+                    </div>
             </div>
         </section>
+
+        <section>
+            <br><br>
+        </section>
+
     </main>
     <footer class="site-footer">
         <container>

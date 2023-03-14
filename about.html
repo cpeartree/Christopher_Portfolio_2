@@ -10,24 +10,21 @@
     <meta content="A user experience designer with a passion for inclusivity and accessibility." name="og:description">
     <meta content="My goal is to identify real problems and solve them creatively and logically through fundamentals rooted in research and design." name="og:description">
     <meta content="Christopher Peartree" property="og:title">
-    <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/main.css"> 
-    <link rel="stylesheet" href="styles/timeline.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/reset.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100;200;400;700&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <title>Christopher Peartree || About</title>
 </head>
 <body>
     <header class="site-header">
-        <div class="container">
+        <div class="flex">
             <div class="site-header__wrapper">
-                <div class="site-header__logo">
+                <div class="flex site-header__logo">
                     <a href="index.html"><img src="images/name-logo.svg"  alt="Christopher Peartree text logo"></a>
                 </div>
                 <div class="site-header__menu-icon">
@@ -35,37 +32,36 @@
                 </div>
                 <nav class="site-header__menu js-menu" data-open="0">
                     <ul class="">
-                        <li class="site-header__close"><a href="#" class="js-menu-close"><ion-icon name="close"></ion-icon></a></li>
+                        <li><a class="home" href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
                         <li><a href="uiux.html">UI/UX</a></li>
                         <li><a href="media.html">VISUAL MEDIA</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
                         <li><a href="cpoirier_resume2023.pdf">RESUME</a></li>
+                        <br>
+                        <li class="site-header__close"><a href="#" class="js-menu-close"><i class="fa-sharp fa-solid fa-xmark"></i></a></li>
+
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
 
-    <main class="page-content">
-        <section class="about flex">
-
-            <div class="about-me intro left-pad flex-middle">  
-                <h2>Poirier means Peartree in french!</h2>
+    <main class="about-page-content">
+        <section class="about-container">
+            <div class="about">
+                <img class="about-selfie" src="images/about-head-shot.png" alt="Casual photo of Christopher">
+            </div>
+            <div class="intro">  
+                <h2>Did you know: Poirier means Peartree!</h2>
                 <br>
-                <hr>
-                <p> I am a versatile and well-rounded creative residing in Vancouver, BC. I am currently a student of New Media Design and Web Development, with a focus on User Experience design.</p>
+                <p> While I may not speak french, but I am a versatile and well-rounded creative residing in Vancouver, BC. I am currently a student of New Media Design and Web Development, with a focus on User Experience design.</p>
                 <br>
                 <p>I have a strong commitment to achieving the objectives of any team or project I am a part of, and I take pride in putting the user first and always considering accessibility in my designs/work. I bring a background in various retail verticals and both hardware and software technologies, which gives me a diverse skill set to bring to any project.</p>
                 <br>
-                <p>Outside of my profession, I am passionate about photography, reading, cycling, and following the Eurovision Song Contest, and Drag Race as if they were sports. I enjoy staying active by hiking, finding new cycling destinations, and learning new things about nature in my free time.</p>
+                <p>Outside of my profession, I am passionate about photography, fashion, reading, and following the Eurovision Song Contest and Drag Race as if they were sports. I enjoy staying active by hiking, discovering new cycling destinations, and generally touching grass.</p>
             </div>
 
-            <div>
-                <img class="about-selfie flex-middle" src="images/about-head-shot.png" alt="Casual photo of Christopher">
-
-            </div>
         </section>
-<hr>
         <section>
             <!-- <h2>Roadmap</h2>
             <br>
@@ -179,8 +175,6 @@
                 </section>
             </container>
     </footer>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script> 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
     <script src="scripts/main.js"></script>
 </body>

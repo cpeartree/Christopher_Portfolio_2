@@ -103,9 +103,13 @@
 
 /****** MAIN ******/
     .page-content {
-        margin: auto;
+        width: 100%;
         padding-top: 2rem;
         padding-bottom: 3rem;
+    }
+    .about-page-content {
+        width: 100%;
+        padding-top: 2rem;
 
     }
 
@@ -113,6 +117,7 @@
         padding-left: 3rem;
         padding-right:3rem;
         justify-content: space-around;
+        z-index: 400;
     }
     .intro p{
         font-weight: 100;
@@ -121,74 +126,98 @@
         display: flex;
 
     }
-    .about-me{
-        margin-right: 5rem;
+    .welcome {
+        padding-bottom: 3rem;
+        overflow: hidden;
+        height: auto;
+        
     }
+/* 
+    .circles {
+        width: 70%;
+        height: contain;
+       position: absolute;
+       margin-left: 9rem;
+       z-index: -1;
+    } */
+    .circle-contianer {
+        overflow: hidden;
 
+    }
+    .about {
+        display: flex;
+        justify-content: center;
+    }
+    .discipline-intro {
+        margin: 3rem;
+    }
 /****** IMAGES ******/
     .head-shot {
+        position: relative;
         border-radius: 50%;
         margin-left: 3rem;
         margin-bottom: 1rem;
-        height: 150px;
-        width: 150px;
+        height: 200px;
+        width: 200px;
+        z-index: 400;
     }
     .about-selfie{
-        height: 400px;
+        height: 200px;
         width: auto;
-        margin-bottom: 3rem;
-        padding-right: 1.5;
-        margin-top: 8rem;
-
+        margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
     }
-    .circles {
-        height: 500px;
-        width: auto;
-        margin-top: -30rem;
+    .card-img .banner_small{
+        display: none;
+    }
+    .card-img .banner {
+        display: block;
     }
 
+/********* ARTIFACT IMAGES *********/
 .maitaime_banner{
+    width: 100%;
     height: auto;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
-    margin-top: 100px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
 
 }
     .amazon-logo {
+        width: 100%;
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 85%;
-        margin-top: 80px;
-        margin-bottom: 5rem;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
     }
     .glamazon-logo {
         height: auto;
         display: block;
         margin-left: auto;
         margin-right: auto;
-        width: 75%;
-        margin-top: 80px;
+        width: 100%;
+        margin-top: 2rem;
         margin-bottom: 1rem;
     }
-    .cpc-logo {
+    .artifact-banner {
+        width: 100vw;
         height: auto;
-        width: auto;
         display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 80%;
-        margin-top: 80px;
-        margin-bottom: 1rem;
+        margin-top: -2rem;
     }
     .art-con img{
         padding-bottom: 1 2rem 2rem 1rem;
     }
     .thumb-img {
-        width: 400px;
+        margin: 1rem;
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
         height: auto;
     }
 
@@ -222,7 +251,7 @@
         letter-spacing: .1rem;
     }
     .intro h2 {
-        font-weight: 400;
+        font-weight: 700;
         font-size: 1.2rem;
         letter-spacing: .2rem;
     }
@@ -240,22 +269,48 @@
         text-decoration: none;
         color: #B97831;
     }
-    .wave {
-        margin-top: -20px;
-    }
     .feat-head {
-        padding: 1.5rem 0rem 1.5rem 3rem;
-        letter-spacing:.2rem;    
+        padding: 1.5rem 0rem 1.5rem 0rem;
+        letter-spacing:.2rem; 
+        display: flex; 
     }
     hr{
-        width: 60%;
+        /* width: 60%; */
         border-color: #475826;
     }
-
+    span {
+        font-size: 45px;
+      }
+    .discipline-intro h2 {
+        font-weight: 700;
+        font-size: 2rem;
+        letter-spacing: .2rem;
+        padding-bottom: .3rem;
+    }  
+    .discipline-intro h1 {
+        font-weight: 400;
+        font-size: .8rem;
+        letter-spacing: .2rem;
+    }
+    
 /****** PROJECT CARDS ******/
+
+.feature-section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 1.9rem;
+    background-color: #FCF5EB;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+    text-decoration: none;
+    z-index: 5;
+
+}
 .card {
     color: #FCF5EB;
-    width: 360px;
+    width: 350px;
     height: 380px;
     display: flex;
     justify-content: center;
@@ -274,7 +329,7 @@
 .card-content h4 {
     font-size: 1.2rem;
     font-weight: 400;
-    line-height: .8rem;
+    line-height: 1.2rem;
     margin: 1rem;
 
 }
@@ -285,7 +340,7 @@
 }
 
 .card img {
-    width: 359px;
+    width: 350px;
     height: 126.67px;
     border-radius: 15px 15px 0 0;
 }
@@ -294,53 +349,60 @@
 
 
 /****** Artifacts ******/
+    .art-content {
+        width: 100%;
+        top: 0;
 
+    }
     .art-container {
-        padding-top: 5rem;
-        padding-bottom: 10rem;
-        width: 850px;
-        margin: auto;
+       margin-left: 2rem;
+       margin-right: 2rem;
     }
 
     .art-head {
         display: flex;
-        justify-content: space-between;
         line-height: 20px;
+        flex-direction: column;
     }
+    .art-head hr {
+        display: flex;
+        margin-left: 0;
+        max-width: 10rem;
+}
     .art-container h1 {
         font-weight: 400;
-        font-size: 3rem;
+        font-size: 2rem;
+        padding-top: 1rem;
+        padding-bottom: .5rem;
     }
     .art-container h2 {
         font-weight: 200;
-        font-size: 2rem;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
     .art-container h3 {
         font-weight: 400;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
 
     }
     .art-container h4 {
         font-weight: 200;
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
     .art-container p{
         font-weight: 200;
         font-size: 1.2rem;
+        line-height: 1.6rem;
     }
-    .art-con a {
-        text-align: none;
-    }
-    .art-con{
-        padding: 2.5rem;
-    }
-    .art-con2 {
-        padding: 2.5rem;
-    }
+
+
 /********* BUTTONS *********/
 .btn {
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    max-width: fit-content;
     
 }
 .bn3637 {
@@ -348,7 +410,410 @@
     align-items: center;
     justify-content: center;
     padding: 0.7rem 2rem;
-    font-weight: 300;
+    font-weight: 400;
+    font-size: .7rem;
+    letter-spacing: .4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FAF0E1;
+    background-color: #808E4A;
+    backface-visibility: hidden;
+    border: 0.3rem solid transparent;
+    border-radius: 1rem;
+  }
+  .bn38 {
+    border-color: transparent;
+    transition: background-color 0.3s ease-in-out;
+  }
+    
+  .bn38:hover {
+    background-color: #475826;
+  }
+.artifact-button {
+    justify-content: space-between
+}
+.card-text .btn {
+    margin-left: 2rem;
+}
+/**********************************************************************
+MEDIA QUERIES
+***********************************************************************/
+@media (min-width: 480px){
+    .page-content {
+        margin: auto;
+        padding-top: 4rem;
+        padding-bottom: 3rem;
+    }
+    .feat-head {
+        padding-right: 14rem;
+    }
+    .about-page-content {
+        padding-top: 5rem;
+    }
+    .site-header__menu {
+        height: 50px;
+    }
+    .intro {
+        margin: 1rem;
+    }
+    .intro h2 {
+        font-weight: 700;
+        font-size: 1.7rem;
+        letter-spacing: .2rem;
+    }
+    .about-selfie {
+        height: 300px;
+        width: auto;
+    }
+    .card-img .banner_small{
+        display: none;
+    }
+    .card-img .banner {
+        display: block;
+    }
+    .discipline-intro {
+        margin: 3rem 5rem 3rem 5rem;
+    }
+}
+
+@media (min-width: 736px) {
+    .page-content {
+        margin: auto;
+        padding-top: 6rem;
+        padding-bottom: 2rem;
+    } 
+    .about-page-content{
+        padding-top: 7rem;
+    }
+    .intro {
+        max-width: 45rem;
+    }
+    .intro h2 {
+        font-weight: 700;
+        font-size: 2.2rem;
+        letter-spacing: .2rem;
+    }
+    .intro h1 {
+        font-weight: 200;
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+    }
+    .intro p {
+        font-weight: 200;
+        font-size: 1.2rem;
+        letter-spacing: .1rem;
+    }
+    .feat-head h4{
+    font-size: 2rem;
+    font-weight: 400;
+    }
+    span {
+        font-size: 60px;
+      }
+      .welcome {
+        padding-top: 6rem;
+        padding-bottom: 6rem;
+      }
+    .about-container {
+        display: flex;
+    }
+    .about {
+        order: 2;
+    }
+    .about-selfie {
+        margin-top: 4.5rem;
+    }
+    .discipline-intro {
+        margin: 3rem 8rem 3rem 8rem;
+    }
+    .discipline-intro h2 {
+        font-weight: 700;
+        font-size: 3rem;
+        letter-spacing: .2rem;
+        padding-bottom: .3rem;
+    }  
+    .discipline-intro h1 {
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: .2rem;
+    }
+    .artifact-banner {
+        margin-top: -3rem;
+    }
+    .thumb-img {
+        width: 40%;
+
+    }
+    /********* IMAGES **********/
+    .head-shot {
+        border-radius: 50%;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        height: 300px;
+        width: 300px;
+    }
+    .about-selfie {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: auto;
+        margin-top: 2.5rem;
+        margin-right: 3rem;
+    }
+
+
+}
+@media (min-width: 800px) {
+
+    .discipline-intro {
+        margin: 3rem 4rem 3rem 4rem;
+    }
+    .discipline-intro h2 {
+        font-weight: 700;
+        font-size: 4rem;
+        letter-spacing: .2rem;
+        padding-bottom: .3rem;
+    }  
+    .discipline-intro h1 {
+        font-weight: 400;
+        font-size: 1.1rem;
+        letter-spacing: .2rem;
+    }
+        /******** ARTIFACT CARDS **********/
+        .welcome {
+            display: flex;
+            padding: 5rem 0 5rem 0;
+        }
+        .feature-section{
+            height: 559px;
+        }
+        .feat-head {
+            padding-right: 37rem;
+            font-size: 1.2rem;
+            font-weight: 400;
+}
+        .feat-head h4{
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        .card {
+            background-color: #FCF5EB;
+            width: 700px;
+            height: 204px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+            border-radius: 15px ;
+            text-decoration: none;
+        }
+        .card-text {
+            color: #475826;
+            padding: 1.2rem;
+            text-decoration: none;
+            margin-left: 24rem;
+            margin-top: -14rem;
+            
+        }
+        .card-content h4 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.2rem;
+    
+        }
+        
+        .card-content .card-desc {
+            font-size: .6rem;
+            
+    
+        }
+        .card-content .card-dis {
+            font-size: .8rem;
+    
+        }
+        
+        .card img {
+            width: auto;
+            height: 204px;
+            max-width: 400px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 15px 0 0 15px;
+        } 
+        .card-img .banner_small{
+            display: block;
+        }
+        .card-img .banner {
+            display: none;
+        }
+        
+        .bn3637 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.6rem 1.4rem;
+            font-weight: 400;
+            font-size: .8rem;
+            letter-spacing: .4rem;
+            text-align: center;
+            text-decoration: none;
+            color: #FAF0E1;
+            background-color: #808E4A;
+            backface-visibility: hidden;
+            border: 0.3rem solid transparent;
+            border-radius: 3rem;
+          }
+}
+@media (min-width: 1024px) {
+.welcome {
+    padding-top: 9rem;
+}
+.page-content {
+    margin-bottom: 3rem;
+}
+.about-container {
+    margin: 5rem;
+} 
+span {
+    font-size: 5rem;
+  }
+.about-selfie {
+    height: 475px;
+    margin-top: 6rem;
+}
+.head-shot {
+    border-radius: 50%;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+    height: 350px;
+    width: 350px;
+}
+.feat-head h4{
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.discipline-intro {
+    margin: 3rem 12rem 3rem 12rem;
+}
+
+}
+
+@media (min-width: 1200px) {
+.about-container {
+    max-width: 1100px;
+    margin: 7rem auto;
+    justify-content: space-around;
+}
+.welcome {
+    display: flex;
+    justify-content: center;
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+.intro h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: .2rem; 
+}
+.intro h1 {
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    line-height: 1.7rem;
+}
+.intro p {
+    font-weight: 200;
+    font-size: 1.5rem;
+    letter-spacing: .1rem;
+    line-height: 1.7rem;
+}
+.feature-section {
+    height: 748px;
+}
+.feat-head {
+    padding-right: 53rem;
+}
+.feat-head h4{
+    font-size: 1.4rem;
+    font-weight: 400;
+}
+
+.discipline-intro h2 {
+    font-weight: 700;
+    font-size: 4rem;
+    letter-spacing: .2rem;
+    padding-bottom: .3rem;
+}  
+.discipline-intro h1 {
+    font-weight: 400;
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+.discipline-intro {
+    margin: 3rem 6rem 3rem 6rem;
+}
+.card {
+    background-color: #FCF5EB;
+    width: 1100px;
+    height: 304px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+    border-radius: 15px ;
+    text-decoration: none;
+}
+.card-text {
+    color: #475826;
+    padding: 1.2rem;
+    text-decoration: none;
+    margin-left: 37rem;
+    margin-top: -20rem;
+    
+}
+
+.card-content .card-desc {
+    font-size: 1.2rem;
+    
+
+}
+.card-content .card-dis {
+    font-size: 1.4rem;
+
+}
+.card-content h4 {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 2rem;
+     margin: 1rem;
+
+}
+
+.card-content p {
+    font-size: 1.2rem;
+    margin: 1rem;
+    line-height: 1.4rem;
+}
+.card img {
+    width: auto;
+    height: 304px;
+    max-width: 700px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+} 
+.card-img .banner_small{
+    display: block;
+}
+.card-img .banner {
+    display: none;
+}
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.6rem 1.4rem;
+    font-weight: 400;
     font-size: 1rem;
     letter-spacing: .4rem;
     text-align: center;
@@ -359,169 +824,4 @@
     border: 0.3rem solid transparent;
     border-radius: 3rem;
   }
-  .bn38 {
-    border-color: transparent;
-    transition: background-color 0.3s ease-in-out;
-  }
-    
-  .bn38:hover {
-    background-color: #475826;
-  }
-
-/**********************************************************************
-MEDIA QUERIES
-***********************************************************************/
-@media (min-width: 480px){
-    .page-content {
-        margin: auto;
-        padding-top: 4rem;
-        padding-bottom: 3rem;
-    }
-    .site-header__menu {
-        height: 50px;
-    }
-}
-
-@media (min-width: 736px) {
-    .page-content {
-        margin: auto;
-        padding-top: 6rem;
-        padding-bottom: 3rem;
-
-    } 
-
-    /******** ARTIFACT CARDS **********/
-    .card {
-        color: #FCF5EB;
-        width: 700px;
-        height: 204px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
-        border-radius: 15px ;
-        text-decoration: none;
-
-    
-    }
-    .card-text {
-        color: #475826;
-        padding: 1.2rem;
-        text-decoration: none;
-        margin-left: 24rem;
-        margin-top: -14rem;
-        
-    
-    
-    }
-    .card-content h4 {
-        font-size: 1.2rem;
-        font-weight: 400;
-        line-height: 1.2rem;
-
-    }
-    
-    .card-content .card-desc {
-        font-size: .6rem;
-        
-
-    }
-    .card-content .card-dis {
-        font-size: .8rem;
-
-    }
-    
-    .card img {
-        width: auto;
-        height: 204px;
-        max-width: 400px;
-        overflow: hidden;
-        object-fit: cover;
-        border-radius: 15px 0 0 15px;
-    }  
-    
-    .bn3637 {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        padding: 0.4rem 1rem;
-        font-weight: 300;
-        font-size: .6rem;
-        letter-spacing:.3rem;    
-        text-align: center;
-        text-decoration: none;
-        color: #FAF0E1;
-        background-color: #808E4A;
-        backface-visibility: hidden;
-        border: 0.3rem solid transparent;
-        border-radius: 3rem;
-      }
-    .btn {
-        /* margin-top: -1rem; */
-        /* margin-right: -28rem; */
-}
-}
-
-@media (min-width: 1290px) {
-
-/******** ARTIFACT CARDS **********/
-    .card {
-        color: #FCF5EB;
-        width: 1283px;
-        height: 375px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
-        border-radius: 15px ;
-        text-decoration: none;
-
-    
-    }
-    .card-text {
-        color: #475826;
-        padding: 1.2rem;
-        text-decoration: none;
-        margin-left: 42rem;
-        margin-top: -24rem;
-        
-    
-    
-    }
-    .card-content h4 {
-        font-size: 2.3rem;
-        font-weight: 400;
-        line-height: 3rem;
-        padding-bottom: .5rem;
-
-    }
-    
-    .card-content .card-desc {
-        font-size: 1.5rem;
-        
-
-    }
-    .card-content .card-dis {
-        font-size: 1.3rem;
-        padding-bottom: .5rem;
-
-    }
-    
-    .card img {
-        width: auto;
-        height: 375px;
-        max-width: 680px;
-        overflow: hidden;
-        object-fit: cover;
-        border-radius: 15px 0 0 15px;
-    }    
-
-/********** BUTTONS ***********/
-.btn {
-display: flex;
-justify-content: flex-end;
-margin-top: -1rem;
-margin-right: 4rem;
-}
-
 }

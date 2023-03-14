@@ -1,0 +1,400 @@
+body {
+
+    width: 100vw;
+    height: 100vh;
+    background: #FAF0E1;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+  
+  .bokeh {
+    animation: bokeh 3s linear;
+    position: absolute;
+    margin-top: -3rem;
+    overflow: hidden;
+    z-index: -10;
+
+  }
+  
+  div[class^='pos-detect'] {
+    width: calc(100vw/6);
+    height: calc(101vh/6);
+    float: left;
+  }
+  
+  div[class $='ground-layer'] {
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    pointer-events: none;
+    top: 50vh;
+    left: 50vw;
+    margin-top: -50vh;
+    margin-left: -50vw;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.23,1,0.32,1);
+  } 
+  
+  div[class ^='bubble-'] {
+    position: absolute;
+    width: 15vw;
+    height: 15vw;
+    border-radius: 100%;
+    background: #D5D2BA;
+  }
+  
+  div[class ^='bubble-']:nth-child(even) {
+    width: 10vw;
+    height: 10vw;
+  }
+  
+  .background-layer {
+    z-index: 1;
+    transition-duration: 30s;
+    opacity: 0.1;
+  }
+    .background-layer .bubble-1 {
+      margin-top: 16vh;
+      margin-left: 6vw;
+    }
+    .background-layer .bubble-2 {
+      margin-top: 8vh;
+      margin-left: 35vw;
+    }
+    .background-layer .bubble-3 {
+      margin-top: 31vh;
+      margin-left: 73vw;
+    }
+    .background-layer .bubble-4 {
+      margin-top: 57vh;
+      margin-left: 20vw;
+    }
+    .background-layer .bubble-5 {
+      margin-top: 69vh;
+      margin-left: 62vw;
+    }
+    .background-layer .bubble-6 {
+      margin-top: 9vh;
+      margin-left: 78vw;
+    }
+    .background-layer .bubble-7 {
+      margin-top: 23vh;
+      margin-left: 44vw;
+    }
+    .background-layer .bubble-8 {
+      margin-top: 55vh;
+      margin-left: 47vw;
+    }
+    .background-layer .bubble-9 {
+      margin-top: 75vh;
+      margin-left: 8vw;
+    }
+    .background-layer .bubble-10 {
+      margin-top: 89vh;
+      margin-left: 78vw;
+    }
+    .background-layer .bubble-11 {
+      margin-top: 89vh;
+      margin-left: 30vw;
+    }
+    .background-layer .bubble-12 {
+      margin-top: 63vh;
+      margin-left: 91vw;
+    }
+  
+  
+  .middleground-layer {
+    z-index: 2;
+    transition-duration: 20s;  
+    opacity: 0.3;
+  }
+    .middleground-layer .bubble-1 {
+      margin-top: -2vh;
+      margin-left: 10vw;
+    }
+    .middleground-layer .bubble-2 {
+      margin-top: 27vh;
+      margin-left: 24vw;
+    }
+    .middleground-layer .bubble-3 {
+      margin-top: 9vh;
+      margin-left: 60vw;
+    }
+    .middleground-layer .bubble-4 {
+      margin-top: 45vh;
+      margin-left: 38vw;
+    }
+    .middleground-layer .bubble-5 {
+      margin-top: 54vh;
+      margin-left: 78vw;
+    }
+    .middleground-layer .bubble-6 {
+      margin-top: 79vh;
+      margin-left: 72vw;
+    }
+    .middleground-layer .bubble-7 {
+      margin-top: 19vh;
+      margin-left: 78vw;
+    }
+    .middleground-layer .bubble-8 {
+      margin-top: 45vh;
+      margin-left: 68vw;
+    }
+    .middleground-layer .bubble-9 {
+      margin-top: 68vh;
+      margin-left: 43vw;
+    }
+    .middleground-layer .bubble-10 {
+      margin-top: 40vh;
+      margin-left: 5vw;
+    }
+    .middleground-layer .bubble-11 {
+      margin-top: 65vh;
+      margin-left: 14vw;
+    }
+    .middleground-layer .bubble-12 {
+      margin-top: 25vh;
+      margin-left: 48vw;
+    }
+  
+  
+  .foreground-layer {
+    z-index: 3;
+    transition-duration: 13s;
+    opacity: 0.5;
+  }
+    .foreground-layer .bubble-1 {
+      margin-top: 69vh;
+      margin-left: -5vw;
+    }
+    .foreground-layer .bubble-2 {
+      margin-top: 26vh;
+      margin-left: 30vw;
+    }
+    .foreground-layer .bubble-3 {
+      margin-top: 14vh;
+      margin-left: 77vw;
+    }
+    .foreground-layer .bubble-4 {
+      margin-top: 85vh;
+      margin-left: 39vw;
+    }
+    .foreground-layer .bubble-5 {
+      margin-top: 67vh;
+      margin-left: 73vw;
+    }
+    .foreground-layer .bubble-6 {
+      margin-top: 4vh;
+      margin-left: 94vw;
+    }
+    .foreground-layer .bubble-7 {
+      margin-top: 5vh;
+      margin-left: 48vw;
+    }
+    .foreground-layer .bubble-8 {
+      margin-top: 35vh;
+      margin-left: 58vw;
+    }
+    .foreground-layer .bubble-9 {
+      margin-top: 25vh;
+      margin-left: 8vw;
+    }
+    .foreground-layer .bubble-10 {
+      margin-top: 54vh;
+      margin-left: 24vw;
+    }
+    .foreground-layer .bubble-11 {
+      margin-top: 41vh;
+      margin-left: 93vw;
+    }
+    .foreground-layer .bubble-12 {
+      margin-top: 55vh;
+      margin-left: 52vw;
+    }
+  
+  
+  .pos-detect-top-1:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 11);
+    left: calc(100vw / 12 * 11);
+  }
+  .pos-detect-top-2:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 11);
+    left: calc(100vw / 12 * 9);
+  }
+  .pos-detect-top-3:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 11);
+    left: calc(100vw / 12 * 7);
+  }
+  .pos-detect-top-4:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 11);
+    left: calc(100vw / 12 * 5);
+  }
+  .pos-detect-top-5:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 11);
+    left: calc(100vw / 12 * 3);
+  }
+  .pos-detect-top-6:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 11);
+    left: calc(100vw / 12);
+  }
+  .pos-detect-top-7:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 9);
+    left: calc(100vw / 12 * 11);
+  }
+  .pos-detect-top-8:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 9);
+    left: calc(100vw / 12 * 9);
+  }
+  .pos-detect-top-9:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 9);
+    left: calc(100vw / 12 * 7);
+  }
+  .pos-detect-top-10:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 9);
+    left: calc(100vw / 12 * 5);
+  }
+  .pos-detect-top-11:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 9);
+    left: calc(100vw / 12 * 3);
+  }
+  .pos-detect-top-12:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 9);
+    left: calc(100vw / 12);
+  }
+  .pos-detect-center-1:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 7);
+    left: calc(100vw / 12 * 11);
+  }
+  .pos-detect-center-2:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 7);
+    left: calc(100vw / 12 * 9);
+  }
+  .pos-detect-center-3:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 7);
+    left: calc(100vw / 12 * 7);
+  }
+  .pos-detect-center-4:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 7);
+    left: calc(100vw / 12 * 5);
+  }
+  .pos-detect-center-5:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 7);
+    left: calc(100vw / 12 * 3);
+  }
+  .pos-detect-center-6:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 7);
+    left: calc(100vw / 12);
+  }
+  .pos-detect-center-7:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 5);
+    left: calc(100vw / 12 * 11);
+  }
+  .pos-detect-center-8:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 5);
+    left: calc(100vw / 12 * 9);
+  }
+  .pos-detect-center-9:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 5);
+    left: calc(100vw / 12 * 7);
+  }
+  .pos-detect-center-10:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 5);
+    left: calc(100vw / 12 * 5);
+  }
+  .pos-detect-center-11:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 5);
+    left: calc(100vw / 12 * 3);
+  }
+  .pos-detect-center-12:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 5);
+    left: calc(100vw / 12);
+  }
+  .pos-detect-bottom-1:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 3);
+    left: calc(100vw / 12 * 11);
+  }
+  .pos-detect-bottom-2:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 3);
+    left: calc(100vw / 12 * 9);
+  }
+  .pos-detect-bottom-3:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 3);
+    left: calc(100vw / 12 * 7);
+  }
+  .pos-detect-bottom-4:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 3);
+    left: calc(100vw / 12 * 5);
+  }
+  .pos-detect-bottom-5:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 3);
+    left: calc(100vw / 12 * 3);
+  }
+  .pos-detect-bottom-6:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12 * 3);
+    left: calc(100vw / 12);
+  }
+  .pos-detect-bottom-7:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12);
+    left: calc(100vw / 12 * 11);
+  }
+  .pos-detect-bottom-8:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12);
+    left: calc(100vw / 12 * 9);
+  }
+  .pos-detect-bottom-9:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12);
+    left: calc(100vw / 12 * 7);
+  }
+  .pos-detect-bottom-10:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12);
+    left: calc(100vw / 12 * 5);
+  }
+  .pos-detect-bottom-11:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12);
+    left: calc(100vw / 12 * 3);
+  }
+  .pos-detect-bottom-12:hover ~ div[class $='ground-layer'] {
+    top: calc(100vh / 12);
+    left: calc(100vw / 12);
+  }
+  
+  @keyframes bokeh {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  /* @media (min-width: 480px) {
+    .bokeh {
+      margin-top: -18.5rem;
+      
+    }
+  }
+  @media (min-width: 736px) {
+    .bokeh {
+        margin-top: -6.5rem;
+      
+    }
+  }
+  @media (min-width: 800px) {
+    .bokeh {
+        margin-top: -17.8rem;
+      
+    }
+  }
+  @media (min-width: 1024px) {
+    .bokeh {
+      margin-top: -18.5rem;
+      
+    }
+  }
+
+  @media (min-width: 1200px) {
+  .bokeh {
+    margin-top: -8rem;
+    
+  }
+} */

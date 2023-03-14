@@ -2,7 +2,7 @@
 .site-header {
     display: block;
     width: 100vw;
-    height: 2.8rem;
+    height: 3rem;
     background: #9ea57f;
     z-index: 99999;
 }
@@ -16,13 +16,12 @@
 }
 
 .site-header__logo {
-
-    width: 100%;
     padding: 13px 0;
     text-align: center;
 }
 
 .site-header__logo img {
+    width: 100px;
     display: inline-block;
 }
 
@@ -31,10 +30,10 @@
     width: 17.5rem;
     height: 100%;
     position: absolute;
-    background-color: #FAF0E1;
+    background-color: #D5D2BA;
     box-shadow: var(--box-shadow);
-    top: 1rem;
-    right: 0;
+    top: 0rem;
+    right: -1rem;
     transform: translateX(100%);
     transition: transform 0.25s ease;
 }
@@ -43,6 +42,8 @@
     transform: translateX(0);
     height: 100vh;
     width: 100vw;
+    right: 0rem;
+
 
 }
 
@@ -81,6 +82,7 @@
     box-shadow: var(--box-shadow);
     position: absolute;
     right: 10px;
+    top: 5px;
 }
 
 .site-header__menu-icon a {
@@ -93,6 +95,7 @@
 
 
 
+/*******************************************************/
 
 	
 @media (min-width: 360px) {
@@ -103,7 +106,7 @@
         width: 100%;
     }
     .site-header__logo img {
-        width: 30%;
+        width: 7rem;
 
     }
 
@@ -111,10 +114,17 @@
         position: fixed;
         bottom: 0;
 }
+.site-header__menu a {
+    line-height: 5rem;
 }
+}
+/*******************************************************/
 
 @media (min-width: 480px) {
-
+    .home{
+        display: none;
+        visibility: hidden;
+    }
     
     .site-header {
         bottom: unset;
@@ -128,7 +138,7 @@
     .site-header__menu {
         position: fixed;
         top: 0;
-
+        right: .2rem;
         padding: 1rem 1rem 0 1rem;
         transform: unset !important;     
     }
@@ -155,14 +165,15 @@
         display: inline-block;
         border-bottom: unset;
         padding: unset;
-    }  
+        line-height: 0rem;
+        }
     
     .site-header__menu {
         width: unset;
     }
 
     .site-header__logo img {
-        width: 30%;
+        width: 7.5rem;
         display: flex;
         justify-content: flex-start;
         margin-left: 3rem;
@@ -175,25 +186,43 @@
     }
 
 }
+/*******************************************************/
 @media (min-width: 736px) {
 .site-header {
         bottom: unset;
         display: block;
         width: 100vw;
-        height: 4.2rem;
+        height: 4.1rem;
     }
 .site-header__menu {
-    height: 50px;
+    height: 40px;
 }
 .site-header__logo img {
-    width: 60%;
+    width: 8.5rem;
 
 }
     .site-header__menu a {
         color: #475826;
-        font-size: .8rem;
+        font-size: .6rem;
         display: inline-block;
         border-bottom: 50px;
         padding: unset;
+        line-height: 0rem;
+
     }  
 }
+@media (min-width: 1024px) {
+
+    .site-header__menu a {
+    font-size: .8rem;
+ 
+
+    }  
+}
+@media (min-width: 1200px) {
+    .site-header__logo img {
+        width: 9rem;
+    
+    }
+
+    }

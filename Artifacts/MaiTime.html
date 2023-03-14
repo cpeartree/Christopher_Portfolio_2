@@ -20,9 +20,9 @@
 </head>
 <body>
     <header class="site-header">
-        <div class="container">
+        <div class="flex">
             <div class="site-header__wrapper">
-                <div class="site-header__logo">
+                <div class="flex site-header__logo">
                     <a href="../index.html"><img src="../images/name-logo.svg"  alt="Christopher Peartree text logo"></a>
                 </div>
                 <div class="site-header__menu-icon">
@@ -30,18 +30,21 @@
                 </div>
                 <nav class="site-header__menu js-menu" data-open="0">
                     <ul class="">
-                        <li class="site-header__close"><a href="#" class="js-menu-close"><ion-icon name="close"></ion-icon></a></li>
+                        <li><a class="home" href="../index.html">HOME</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
                         <li><a href="../uiux.html">UI/UX</a></li>
                         <li><a href="../media.html">VISUAL MEDIA</a></li>
-                        <li><a href="../about.html">ABOUT</a></li>
                         <li><a href="../cpoirier_resume2023.pdf">RESUME</a></li>
+                        <br>
+                        <li class="site-header__close"><a href="#" class="js-menu-close"><i class="fa-sharp fa-solid fa-xmark"></i></a></li>
+
                     </ul>
                 </nav>
             </div>
         </div>
     </header>
-    <main>
-        <img class="maitaime_banner" src="../images/mai_taime_banner.png" alt="Amazon Logo">
+    <main class="page-content">
+        <img class="artifact-banner" src="../images/mai_taime_banner.png" alt="Tropical Page Banner with MaiTime product & logo">
         <div class="art-container">
             <br>
             <h1>Mai TAIme</h1>
@@ -173,11 +176,11 @@
                 <br>
                 <section>
                     <ul class="ftr-link">
-                        <li><a href="index.html">HOME</a></li>
-                        <li><a href="about.html">ABOUT</a></li>
-                        <li><a href="uiux.html">UI/UX</a></li>
-                        <li><a href="media.html">VISUAL MEDIA</a></li>
-                        <li><a href="cpoirier_resume2023.pdf">RESUME</a></li>
+                        <li><a href="../index.html">HOME</a></li>
+                        <li><a href="../about.html">ABOUT</a></li>
+                        <li><a href="../uiux.html">UI/UX</a></li>
+                        <li><a href="../media.html">VISUAL MEDIA</a></li>
+                        <li><a href="../cpoirier_resume2023.pdf">RESUME</a></li>
                     </ul>
                 </section>
                 <section>
@@ -185,12 +188,11 @@
                 </section>
             </container>
     </footer>
-    <script src="https://code.jquery.com/jquery-3.6.1.min.js"
-    integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ="
-    crossorigin="anonymous"></script>
-    <script src="../scripts/lightbox-plus-jquery.min.js"></script> 
-    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+
+    <script src="../scripts/lightbox-plus-jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="../scripts/main.js"></script>
+
 </body>
 </html>

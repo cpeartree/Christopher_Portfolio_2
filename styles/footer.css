@@ -4,6 +4,7 @@
 	left: 0;
 	width: 100vw;
 	padding-bottom: 5rem;
+	background-color: #D5D2BA;
 
 }
 .site-footer img {
@@ -88,8 +89,8 @@ h6 {
 	flex-direction: row;
 	justify-content: space-between;
 	padding-bottom: 1rem;
-	padding-left: 2rem;
-	padding-right: 2rem;
+	padding-left: 1rem;
+	padding-right: 1rem;
 }
 .ftr-link a{
 	text-decoration: none;
@@ -114,13 +115,18 @@ h6 {
 
 @media (min-width: 480px) {
 	.ftr-link{
-	padding-left:  6rem;
-	padding-right: 6rem;
+		padding-left: 8rem;
+		padding-right: 8rem;
 }
 	.ftr-link a{
 		font-size: .8rem;
 	}
-
+}
+@media (min-width: 560px) {
+	.ftr-link{
+		padding-left: 5rem;
+		padding-right: 5rem;
+}
 }
 @media (min-width: 767px) {
 	.ftr-link{
@@ -133,10 +139,22 @@ h6 {
 }
 @media (min-width: 900px) {
 	.ftr-link{
-		padding-left: 25rem;
-		padding-right: 25rem;
+		padding-left: 14rem;
+		padding-right: 14rem;
 	}
 	.ftr-link a{
 		font-size: .8rem;
+	}
+}
+@media (min-width: 1200px) {
+	.ftr-link{
+		padding-left: 18rem;
+		padding-right: 18rem;
+	}
+}
+@media (min-width: 1400px) {
+	.ftr-link{
+		padding-left: 26rem;
+		padding-right: 26rem;
 	}
 }
