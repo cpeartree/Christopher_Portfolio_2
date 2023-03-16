@@ -617,9 +617,7 @@ MEDIA QUERIES
             display: flex;
             padding: 5rem 0 5rem 0;
         }
-        .feature-section{
-            height: 559px;
-        }
+
         .feat-head {
             padding-right: 37rem;
             font-size: 1.2rem;
@@ -761,7 +759,8 @@ span {
     line-height: 1.7rem;
 }
 .feature-section {
-    height: 748px;
+
+    gap: 16px;
 }
 .feat-head {
     padding-right: 53rem;
