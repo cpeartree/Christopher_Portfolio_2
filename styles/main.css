@@ -153,7 +153,8 @@
     }
     .cato-section {
     display: block;
-    margin: 3rem;
+    padding-bottom: 2rem;
+
 }
 /****** IMAGES ******/
     .head-shot {
@@ -177,6 +178,15 @@
     }
     .card-img .banner {
         display: block;
+    }
+    .petuina-circle {
+        border-radius: 50%;
+        height: 200px;
+        width: auto;
+    }
+    .petuina {
+        height: 300px;
+        width: auto;
     }
 
 /********* ARTIFACT IMAGES *********/
@@ -219,7 +229,7 @@
     }
     .thumb-img {
         margin: 1rem;
-        max-width: 400px;
+        max-width: 300px;
     }
 
 
@@ -295,7 +305,22 @@
         font-size: .8rem;
         letter-spacing: .2rem;
     }
-    
+/******** LIST STYLES ********/
+.cato-section li {
+    list-style: none;
+
+    position: relative;
+    line-height: 2rem;
+  }
+  
+ .cato-section li:before {
+    content: "\01F324 \FE0F";
+    top: 12px;
+    left: 5px;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+  }    
 /****** PROJECT CARDS ******/
 
 .feature-section {
@@ -347,7 +372,11 @@
     height: 126.67px;
     border-radius: 15px 15px 0 0;
 }
-
+.cato-section h4 {
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
 
 
 
@@ -390,7 +419,7 @@
 
     }
     .art-container h4 {
-        font-weight: 200;
+        font-weight: 400;
         font-size: 1rem;
     }
     .art-container p{
