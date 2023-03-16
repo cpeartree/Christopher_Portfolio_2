@@ -320,7 +320,15 @@
     display: inline-block;
     height: 1rem;
     width: 1rem;
-  }    
+  }  
+  
+  
+ /********** FULL PAGE *********/
+ .section {
+    text-align:center;
+    font-size: 3em;
+    font-family: arial;
+  } 
 /****** PROJECT CARDS ******/
 
 .feature-section {
