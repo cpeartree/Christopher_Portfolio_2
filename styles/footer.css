@@ -3,7 +3,7 @@
 	bottom: 0;
 	left: 0;
 	width: 100vw;
-	/* padding-bottom: 5rem; */
+	padding-bottom: 3rem;
 	background-color: #D5D2BA;
 
 }
@@ -41,7 +41,7 @@ h6 {
 	text-decoration: none;
 	margin: 8px;
 	position: relative;
-	font-size: 30px;
+	font-size:10px;
 
 }
 
@@ -115,8 +115,8 @@ h6 {
 
 @media (min-width: 480px) {
 	.ftr-link{
-		padding-left: 8rem;
-		padding-right: 8rem;
+		padding-left: 5rem;
+		padding-right: 5rem;
 }
 	.ftr-link a{
 		font-size: .8rem;

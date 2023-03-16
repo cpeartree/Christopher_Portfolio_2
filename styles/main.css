@@ -345,7 +345,8 @@
     box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
     border-radius: 15px ;
     text-decoration: none;
-    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+   
 
 }
 .card-text {
@@ -637,6 +638,7 @@ MEDIA QUERIES
             box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
             border-radius: 15px ;
             text-decoration: none;
+            gap: 16px;
         }
         .card-text {
             color: #475826;
