@@ -345,7 +345,7 @@
     box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
     border-radius: 15px ;
     text-decoration: none;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
    
 
 }
@@ -538,7 +538,7 @@ MEDIA QUERIES
         letter-spacing: .1rem;
     }
     .feat-head h4{
-    font-size: 2rem;
+    font-size: 1rem;
     font-weight: 400;
     }
     span {
@@ -638,7 +638,7 @@ MEDIA QUERIES
             box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
             border-radius: 15px ;
             text-decoration: none;
-            gap: 16px;
+            /* gap: 16px; */
         }
         .card-text {
             color: #475826;
@@ -761,7 +761,6 @@ span {
     line-height: 1.7rem;
 }
 .feature-section {
-
     gap: 16px;
 }
 .feat-head {
@@ -774,13 +773,13 @@ span {
 
 .discipline-intro h2 {
     font-weight: 700;
-    font-size: 4rem;
+    font-size: 3rem;
     letter-spacing: .2rem;
     padding-bottom: .3rem;
 }  
 .discipline-intro h1 {
     font-weight: 400;
-    font-size: 2rem;
+    font-size: 1.75rem;
     letter-spacing: .2rem;
 }
 .discipline-intro {
@@ -842,6 +841,9 @@ span {
 .card-img .banner {
     display: none;
 }
+.card-text .btn {
+    margin-left: 11rem;
+  }
 .bn3637 {
     display: inline-flex;
     align-items: center;
