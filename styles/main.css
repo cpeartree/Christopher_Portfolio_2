@@ -151,6 +151,10 @@
     .discipline-intro {
         margin: 3rem;
     }
+    .cato-section {
+    display: block;
+    margin: 3rem;
+}
 /****** IMAGES ******/
     .head-shot {
         position: relative;
