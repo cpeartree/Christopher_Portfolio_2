@@ -446,7 +446,7 @@
     .art-container h3 {
         font-weight: 400;
         font-size: 1.2rem;
-        margin-top: 1.5rem;
+        /* margin-top: 1.5rem; */
 
     }
     .art-container h4 {
@@ -468,7 +468,7 @@
 
     .market {
         padding: .5rem 1rem 1rem 1rem;
-        /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
+        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 1rem;
         }
 /********* BUTTONS *********/
@@ -585,6 +585,7 @@ MEDIA QUERIES
 
 
     .persona {
+        padding: 1rem 2rem 2rem 2rem;
         max-width: 600px;
         margin-left: auto;
         margin-right: auto;
@@ -765,10 +766,8 @@ MEDIA QUERIES
     .cato-section h5{
         font-size: 1.2rem;
     }
-    .page-content p {
-        font-size: 1rem;
-        line-height: 2rem;
-
+    .market {
+        padding: 1rem 2.5rem 2.5rem 2rem;
     }
 
     .functionallity h2 {
@@ -817,6 +816,14 @@ MEDIA QUERIES
     }
     .persona p{
         line-height: 2.3rem;
+    }
+    .petuina {
+        width: 350px;
+        height: 800px;
+        object-fit: cover;
+    }
+    .petuina-circle{
+        margin-left: 3rem;
     }
     
         /******** ARTIFACT CARDS **********/
@@ -942,6 +949,9 @@ span {
 .petuina-bio li {
     font-size: 1.2rem;
 }
+.petuina-circle{
+    margin-left: 9rem;
+}
 .cato-logo {
     max-width: 500px;
     display: flex;
@@ -959,9 +969,11 @@ span {
     line-height: 2.7rem;
 }
 .petuina {
-    width: 400px;
-    height: auto;
-    padding: 1rem;
+        width: 350px;
+        height: 700px;
+        object-fit: cover;
+
+    }
 }
 .persona h5 {
     padding-bottom: 1.5rem;
