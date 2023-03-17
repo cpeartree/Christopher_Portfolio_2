@@ -112,7 +112,7 @@
     }
     .cato-section {
     display: block;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
 }
 .petuina-bio {
     display: block;
@@ -162,8 +162,7 @@
         margin-right: auto;
         height: 300px;
         width: auto;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        padding: 1rem;
     }
     .cato-logo {
         max-width: 200px;
@@ -215,7 +214,11 @@
         margin: 1rem;
         max-width: 300px;
     }
-
+    .cato-wireframes {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
 
 
@@ -582,10 +585,11 @@ MEDIA QUERIES
     .art-intro-section {
         padding-bottom: 3rem;
     }
+
 }
 
 
-@media (max-width: 600px) {
+@media (min-width: 600px) {
     
     .art-intro-category hr {
         width: auto;
@@ -594,19 +598,25 @@ MEDIA QUERIES
     .art-intro-category h3 {
         justify-content: space-around;
     }
+    .market {
+        min-width: 550px;
+        margin-left: auto;
+        margin-right: auto;
 
+    }
+    .market p {
+        margin-left: 1.5rem;
+    }
 
     .persona {
-        padding: 1rem 2rem 2rem 2rem;
-        max-width: 600px;
+        min-width: 550px;
         margin-left: auto;
         margin-right: auto;
     }
     .functionallity {
         display: block;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 400px;
+        max-width: 600px;
+        margin: 0 auto;
         /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
     }
@@ -644,17 +654,9 @@ MEDIA QUERIES
         margin-top: 2.5rem;
         margin-right: 3rem;
     }
-    .market {
-        max-width: 650px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .market p {
-        margin-left: 1.5rem;
-    }
-}
 
+
+}
 
 
 @media (min-width: 736px){
@@ -747,9 +749,7 @@ MEDIA QUERIES
     .functionallity {
         max-width: 650px;
     }
-    .scenario{
-        display: flex;
-    }
+
     .petuina-circle {
         height: 300px;
         width: auto;
@@ -778,6 +778,8 @@ MEDIA QUERIES
         font-size: 1.2rem;
     }
     .market {
+
+        min-width: 750px;
         padding: 1rem 2.5rem 2.5rem 2rem;
     }
 
@@ -828,10 +830,11 @@ MEDIA QUERIES
     .persona p{
         line-height: 2.3rem;
     }
+    .scenario {
+        display:flex;
+    }
     .petuina {
-        width: 350px;
-        height: 800px;
-        object-fit: cover;
+        margin-top:-50px;
     }
     .petuina-circle{
         margin-left: 3rem;
@@ -960,8 +963,9 @@ span {
 .petuina-bio li {
     font-size: 1.2rem;
 }
-.petuina-circle{
-    margin-left: 9rem;
+
+.petuina-intro {
+margin-left: ;
 }
 .cato-logo {
     max-width: 500px;
@@ -976,13 +980,19 @@ span {
 .art-container h2 {
     font-size: 3rem;
 }
+.persona {
+    margin-top: 1rem;
+    padding: 3rem 5rem;
+}
 .persona p{
     line-height: 2.7rem;
 }
 .petuina {
         width: 350px;
-        height: 700px;
+        height: 520px;
         object-fit: cover;
+        margin-top: -50px;
+
 
     }
 .persona h5 {
@@ -1023,6 +1033,10 @@ span {
 
 
 @media (min-width: 1200px) {
+.art-container {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
 .about-container {
     max-width: 1100px;
     margin: 7rem auto;
@@ -1152,3 +1166,10 @@ span {
     border-radius: 3rem;
   }
 }
+@media (min-width: 1440px) {
+    .art-container {
+        margin-left: 12rem;
+        margin-right: 12rem;
+    }
+}
+
