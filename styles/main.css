@@ -119,6 +119,10 @@
     margin-left: auto;
     margin-right: auto;
 }
+.petuina-bio ul {
+    margin-left: -10px;
+}
+
 /****** IMAGES ******/
     .head-shot {
         position: relative;
@@ -144,13 +148,13 @@
     }
     .petuina-circle {
         display: block;
-
         height: 250px;
         width: auto;
         border-radius: 50%;
         display: flex;
         justify-content: space-around;
         margin-top: 1rem;
+        margin-bottom: 1rem;
     }
     .petuina {
         display: block;
@@ -301,9 +305,18 @@
     line-height: 2rem;
     font-size: .5rem; 
     }
-    .cato-section h5 {
-        padding-bottom: .5rem;
-    }
+.persona h5{
+    padding-bottom: 1rem;
+    padding-top: 1.5rem
+}
+
+.market h3 {
+    font-weight: 200;
+    font-size: 1rem;;
+}
+.market p {
+    font-size: .9rem;
+}
 
 .art-intro-category h3 {
     padding-bottom: .7rem;
@@ -360,7 +373,7 @@
     background-color: #FCF5EB;
     width: 100%;
     height: auto;
-    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
     text-decoration: none;
     z-index: 5;
 
@@ -371,7 +384,7 @@
     height: 380px;
     display: flex;
     justify-content: center;
-    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+    box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
     border-radius: 15px ;
     text-decoration: none;
     margin-bottom: 1rem;
@@ -461,14 +474,15 @@
     }
     .persona {
         padding: .5rem 1rem 1rem 2rem;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 3rem;
 }
-
-
+.art-intro-category {
+    padding-bottom: 1.5rem;
+}
     .market {
         padding: .5rem 1rem 1rem 1rem;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 1rem;
         }
 /********* BUTTONS *********/
@@ -595,7 +609,6 @@ MEDIA QUERIES
         margin-right: auto;
         margin-left: auto;
         max-width: 400px;
-        padding: .5rem 1rem 1rem 2rem;
         /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
     }
@@ -974,7 +987,6 @@ span {
         object-fit: cover;
 
     }
-}
 .persona h5 {
     padding-bottom: 1.5rem;
 }
