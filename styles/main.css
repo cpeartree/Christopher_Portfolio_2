@@ -161,6 +161,12 @@
         padding-top: 1rem;
         padding-bottom: 1rem;
     }
+    .cato-logo {
+        max-width: 200px;
+        display: flex;
+        margin: 0 auto;
+        padding-top: 1rem;
+    }
 
 /********* ARTIFACT IMAGES *********/
 .maitaime_banner{
@@ -297,6 +303,10 @@
     .cato-section h5 {
         padding-bottom: .5rem;
     }
+
+.art-intro-category h3 {
+    padding-bottom: .7rem;
+}
 /******** LIST STYLES ********/
 .cato-section li {
     color: #475826;
@@ -317,6 +327,9 @@
     height: 1rem;
     width: 1rem;
   }  
+  .functionallity {
+    margin-top: 2rem;
+  }
   .functionallity li {
     color: #475826;
     list-style: none;
@@ -442,8 +455,8 @@
     }
     .art-container p{
         font-weight: 200;
-        font-size: .8rem;
-        line-height: 1.6rem;
+        font-size: 1rem;
+        line-height: 2rem;
     }
     .persona {
         padding: .5rem 1rem 1rem 2rem;
@@ -454,7 +467,7 @@
 
     .market {
         padding: .5rem 1rem 1rem 1rem;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 1rem;
         }
 /********* BUTTONS *********/
@@ -550,15 +563,88 @@ MEDIA QUERIES
         margin-left: auto;
         max-width: 380px;
         padding: .5rem 1rem 1rem 2rem;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
     }
     .art-intro-section {
-        padding-bottom: 2rem;
+        padding-bottom: 3rem;
     }
 }
 
-@media (min-width: 736px) {
+
+@media (max-width: 600px) {
+    
+    .art-intro-category hr {
+        width: auto;
+        left: 0;
+    }
+    .art-intro-category h3 {
+        justify-content: space-around;
+    }
+
+
+    .persona {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .functionallity {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 400px;
+        padding: .5rem 1rem 1rem 2rem;
+        /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
+        margin-bottom: 3rem;
+    }
+    .functionallity li {
+        color: #475826;
+        list-style: none;
+        position: relative;
+        line-height: 1.4rem;
+        font-size: .8rem;
+        margin-left: .8rem;
+        margin-bottom: .7rem;
+        font-weight: 200;
+    }
+    .functionallity li:before {
+        content: "\01F324 \FE0F";
+        top: 12px;
+        left: 5px;
+        display: inline-block;
+        height: 1rem;
+        width: 1rem;
+    }
+    /********* IMAGES **********/
+    .head-shot {
+        border-radius: 50%;
+        margin-left: 3rem;
+        margin-bottom: 1rem;
+        height: 300px;
+        width: 300px;
+    }
+    .about-selfie {
+        display: flex;
+        justify-content: center;
+        height: 400px;
+        width: auto;
+        margin-top: 2.5rem;
+        margin-right: 3rem;
+    }
+    .market {
+        max-width: 650px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .market p {
+        margin-left: 1.5rem;
+    }
+}
+
+
+
+@media (min-width: 736px){
     .page-content {
         margin: auto;
         padding-top: 6rem;
@@ -626,72 +712,87 @@ MEDIA QUERIES
         max-width: 600px;
     }
     .art-intro-section{
-    display: flex; 
-    margin-left: 0;
-    margin-right: auto;
-    padding-bottom: 2rem;
-    max-width: 600px;
+        display: flex;
+        width: 100wv;
+        margin: 0 auto;
+        overflow: hidden;;
+        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        text-decoration: none;
+        margin-bottom: 3rem;
+        margin-top: 1.5rem;
     }
-
-    .persona {
-        max-width: 600px;
-        margin-left: auto;
-        margin-right: auto;
+    .art-intro-category{
+        justify-content: space-between;
+    }
+    .art-intro-category {
+        margin: 0 auto;
+        padding: .5rem;
+    }
+    .cato-logo {
+        max-width: 400px; 
     }
     .functionallity {
-        display: block;
-        margin-right: auto;
-        margin-left: auto;
-        max-width: 400px;
-        padding: .5rem 1rem 1rem 2rem;
-        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
-        margin-bottom: 3rem;
-    }
-    .functionallity li {
-        color: #475826;
-        list-style: none;
-        position: relative;
-        line-height: 1.4rem;
-        font-size: .8rem;
-        margin-left: .8rem;
-        margin-bottom: .7rem;
-        font-weight: 200;
-    }
-    .functionallity li:before {
-        content: "\01F324 \FE0F";
-        top: 12px;
-        left: 5px;
-        display: inline-block;
-        height: 1rem;
-        width: 1rem;
-    }
-    /********* IMAGES **********/
-    .head-shot {
-        border-radius: 50%;
-        margin-left: 3rem;
-        margin-bottom: 1rem;
-        height: 300px;
-        width: 300px;
-    }
-    .about-selfie {
-        display: flex;
-        justify-content: center;
-        height: 400px;
-        width: auto;
-        margin-top: 2.5rem;
-        margin-right: 3rem;
-    }
-    .market {
         max-width: 650px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
     }
-    .market p {
-        margin-left: 1.5rem;
+    .scenario{
+        display: flex;
     }
+    .petuina-circle {
+        height: 300px;
+        width: auto;
+    }
+    .petuina {
+        width: 350px;
+        height:auto;
+        padding: 1rem;
+    }
+    .petuina-bio h4 {
+        font-size: 1.5rem;
+    }
+    .petuina-bio li {
+        font-size: 1rem;
+    }
+    .petuina-intro {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50%
+    }
+    .petuina-bio {
+        padding-left: 1rem;
+    }
+    .cato-section h5{
+        font-size: 1.2rem;
+    }
+    .page-content p {
+        font-size: 1rem;
+        line-height: 2rem;
+        margin-left: 1rem;
+    }
+
+    .functionallity h2 {
+        padding: 1rem;
+        font-size: 2rem;
+      }
+      .page-content li {
+        font-size: 1rem;
+        line-height: 2rem;
+      }
+      .user-goals {
+        max-width: 80%;
+        margin: 0 auto;
+      }
+
+
 }
+
+
 @media (min-width: 800px) {
+    .art-container h1 {
+        font-weight: 400;
+        font-size: 4rem;
+        padding-top: 1rem;
+    }
 
     .discipline-intro {
         margin: 3rem 4rem 3rem 4rem;
@@ -702,11 +803,21 @@ MEDIA QUERIES
         letter-spacing: .2rem;
         padding-bottom: .3rem;
     }  
-    .discipline-intro h1 {
-        font-weight: 400;
-        font-size: 1.1rem;
+    .art-container h1 {
+
+        font-size: 4rem;
         letter-spacing: .2rem;
     }
+    .art-container h2 {
+
+        font-size: 2rem;
+        line-height: 3rem;
+        margin-bottom: 0.4rem;
+    }
+    .persona p{
+        line-height: 2.3rem;
+    }
+    
         /******** ARTIFACT CARDS **********/
         .welcome {
             display: flex;
@@ -790,16 +901,18 @@ MEDIA QUERIES
             border: 0.3rem solid transparent;
             border-radius: 3rem;
           }
-}
+        }
 @media (min-width: 1024px) {
 .welcome {
     padding-top: 9rem;
 }
 .page-content {
+
     margin-bottom: 3rem;
 }
 .about-container {
     margin: 5rem;
+    
 } 
 span {
     font-size: 5rem;
@@ -822,8 +935,69 @@ span {
 .discipline-intro {
     margin: 3rem 12rem 3rem 12rem;
 }
+.art-container p {
+    font-size:1.2rem;
+}
+.petuina-bio li {
+    font-size: 1.2rem;
+}
+.cato-logo {
+    max-width: 500px;
+    display: flex;
+    margin: 0 auto;
+    padding-top: 1rem;
+}
+.functionallity li {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.art-container h2 {
+    font-size: 3rem;
+}
+.persona p{
+    line-height: 2.7rem;
+}
+.petuina {
+    width: 400px;
+    height: auto;
+    padding: 1rem;
+}
+.persona h5 {
+    padding-bottom: 1.5rem;
+}
+.persona p {
+    padding-bottom: 1.5rem;
+}
+.user-goals {
+    padding-bottom: 3rem;
+}
+.user-goals h2 {
+    padding-bottom: 2rem;
+}
+.user-goals li {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+.market {
+    margin-bottom: 3rem;
+}
+.market h3 {
+    font-weight: 400;
+    font-size: 2rem;
+    margin-top: 1.5rem;
+}
+.market h4 {
+    font-size: 1.7rem;
+    padding-bottom: 1rem;
+}
+.market p {
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+}
 
 }
+
+
 
 @media (min-width: 1200px) {
 .about-container {
