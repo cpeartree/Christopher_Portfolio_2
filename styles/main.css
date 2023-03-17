@@ -544,6 +544,18 @@ MEDIA QUERIES
     .thumb-img {
         max-width: 400px;
     }
+    .functionallity {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 380px;
+        padding: .5rem 1rem 1rem 2rem;
+        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        margin-bottom: 3rem;
+    }
+    .art-intro-section {
+        padding-bottom: 2rem;
+    }
 }
 
 @media (min-width: 736px) {
@@ -614,9 +626,7 @@ MEDIA QUERIES
         max-width: 600px;
     }
     .art-intro-section{
-    display: flex;
-    justify-content: space-around;
- 
+    display: flex; 
     margin-left: 0;
     margin-right: auto;
     padding-bottom: 2rem;
