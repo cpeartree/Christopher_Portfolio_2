@@ -316,7 +316,26 @@
     display: inline-block;
     height: 1rem;
     width: 1rem;
-  }    
+  }  
+  .functionallity li {
+    color: #475826;
+    list-style: none;
+    position: relative;
+    line-height: 1.4rem;
+    font-size: .8rem;
+    margin-left: .8rem;
+    margin-bottom: .7rem;
+    font-weight: 200;
+  }
+  
+ .functionallity li:before {
+    content: "\01F324 \FE0F";
+    top: 12px;
+    left: 5px;
+    display: inline-block;
+    height: 1rem;
+    width: 1rem;
+  }   
 /****** PROJECT CARDS ******/
 
 .feature-section {
@@ -403,7 +422,6 @@
         font-weight: 400;
         font-size: 2rem;
         padding-top: 1rem;
-        padding-bottom: .5rem;
     }
     .art-container h2 {
         font-weight: 400;
@@ -461,7 +479,7 @@
     background-color: #808E4A;
     backface-visibility: hidden;
     border: 0.3rem solid transparent;
-    border-radius: 1rem;
+    border-radius: 3rem;
   }
   .bn38 {
     border-color: transparent;
@@ -515,6 +533,16 @@ MEDIA QUERIES
     }
     .discipline-intro {
         margin: 3rem 5rem 3rem 5rem;
+    }
+    .art-container h2 {
+        font-size: 1.5rem;
+    }
+    .petuina-circle {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .thumb-img {
+        max-width: 400px;
     }
 }
 
@@ -583,8 +611,49 @@ MEDIA QUERIES
         margin-top: -3rem;
     }
     .thumb-img {
-        width: 40%;
+        max-width: 600px;
+    }
+    .art-intro-section{
+    display: flex;
+    justify-content: space-around;
+ 
+    margin-left: 0;
+    margin-right: auto;
+    padding-bottom: 2rem;
+    max-width: 600px;
+    }
 
+    .persona {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .functionallity {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 400px;
+        padding: .5rem 1rem 1rem 2rem;
+        box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+        margin-bottom: 3rem;
+    }
+    .functionallity li {
+        color: #475826;
+        list-style: none;
+        position: relative;
+        line-height: 1.4rem;
+        font-size: .8rem;
+        margin-left: .8rem;
+        margin-bottom: .7rem;
+        font-weight: 200;
+    }
+    .functionallity li:before {
+        content: "\01F324 \FE0F";
+        top: 12px;
+        left: 5px;
+        display: inline-block;
+        height: 1rem;
+        width: 1rem;
     }
     /********* IMAGES **********/
     .head-shot {
@@ -602,8 +671,15 @@ MEDIA QUERIES
         margin-top: 2.5rem;
         margin-right: 3rem;
     }
-
-
+    .market {
+        max-width: 650px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .market p {
+        margin-left: 1.5rem;
+    }
 }
 @media (min-width: 800px) {
 
