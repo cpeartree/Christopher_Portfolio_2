@@ -589,7 +589,6 @@ MEDIA QUERIES
 
 }
 
-
 @media (min-width: 600px) {
     
     .art-intro-category hr {
@@ -659,7 +658,6 @@ MEDIA QUERIES
 
 }
 
-
 @media (min-width: 736px){
     .page-content {
         margin: auto;
@@ -667,7 +665,6 @@ MEDIA QUERIES
         padding-bottom: 2rem;
     } 
     .about-page-content{
-        padding-top: 7rem;
     }
     .intro {
         max-width: 45rem;
@@ -698,9 +695,6 @@ MEDIA QUERIES
         padding-top: 6rem;
         padding-bottom: 6rem;
       }
-    .about-container {
-        display: flex;
-    }
     .about {
         order: 2;
     }
@@ -800,8 +794,8 @@ MEDIA QUERIES
 
 }
 
-
 @media (min-width: 800px) {
+
     .art-container h1 {
         font-weight: 400;
         font-size: 4rem;
@@ -925,6 +919,7 @@ MEDIA QUERIES
             border-radius: 3rem;
           }
         }
+
 @media (min-width: 1024px) {
 .welcome {
     padding-top: 9rem;
@@ -934,7 +929,8 @@ MEDIA QUERIES
     margin-bottom: 3rem;
 }
 .about-container {
-    margin: 5rem;
+    display:flex;
+    margin: 3rem;
     
 } 
 span {
@@ -1031,18 +1027,12 @@ margin-left: ;
 
 }
 
-
-
 @media (min-width: 1200px) {
 .art-container {
     margin-left: 5rem;
     margin-right: 5rem;
 }
-.about-container {
-    max-width: 1100px;
-    margin: 7rem auto;
-    justify-content: space-around;
-}
+
 .welcome {
     display: flex;
     justify-content: center;
@@ -1056,7 +1046,7 @@ margin-left: ;
 }
 .intro h1 {
     font-weight: 200;
-    font-size: 1.5rem;
+    font-size: 3rem;
     letter-spacing: .1rem;
     line-height: 1.7rem;
 }
@@ -1167,10 +1157,19 @@ margin-left: ;
     border-radius: 3rem;
   }
 }
+
 @media (min-width: 1440px) {
+    .intro {
+        margin: 3rem;
+    }
     .art-container {
         margin-left: 12rem;
         margin-right: 12rem;
+    }
+    .about-selfie {
+        height: 500px;
+        width: auto;
+        margin-top: 6rem;
     }
 
 }
