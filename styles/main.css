@@ -1175,6 +1175,12 @@ margin-left: ;
     border: 0.3rem solid transparent;
     border-radius: 3rem;
   }
+
+  .about-container{
+    margin-top: 2rem;
+    margin-left: 5rem;
+
+  }
   .cato-section .thumb-img {
     max-width: 600px;
 }
@@ -1205,14 +1211,17 @@ margin-left: ;
     .intro {
         margin: 3rem;
     }
+    .about-container {
+        margin-left: 8rem;
+    }
     .art-container {
         margin-left: 12rem;
         margin-right: 12rem;
     }
     .about-selfie {
-        height: 500px;
+        height: 600px;
         width: auto;
-        margin-top: 6rem;
+        margin-top: 8rem;
     }
 
 }

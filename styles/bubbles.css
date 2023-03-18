@@ -395,7 +395,12 @@ body {
 
   @media (min-width: 1200px) {
   .bokeh {
-    margin-top: -.8rem;
-    
+    margin-top: -3.8rem;
   }
+}
+  @media (min-width: 1400px) {
+    .bokeh {
+      margin-top: -5rem;
+      
+    }
 }
