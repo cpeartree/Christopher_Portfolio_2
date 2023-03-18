@@ -8,6 +8,7 @@
     body {
         background-color: #FAF0E1;
         min-height: 100vh;
+        min-width: 100vw;
     }
 
 /* Airrick added this remove if it mucks up things*/
@@ -1171,5 +1172,6 @@ margin-left: ;
         margin-left: 12rem;
         margin-right: 12rem;
     }
+
 }
 
