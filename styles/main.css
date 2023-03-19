@@ -1203,7 +1203,7 @@ span {
 
 @media (min-width: 1440px) {
     .welcome {
-
+        margin: -1rem;
         padding-top: 5rem;
         padding-bottom: 12rem;
     }
