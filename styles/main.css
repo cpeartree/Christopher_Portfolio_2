@@ -973,9 +973,8 @@ span {
 .petuina-bio li {
     font-size: 1.2rem;
 }
-
-.petuina-intro {
-margin-left: ;
+.welcome h2 {
+    font-size: 3.2rem;
 }
 .cato-logo {
     max-width: 500px;
@@ -1193,12 +1192,17 @@ margin-left: ;
 }
 
 @media (min-width: 1440px) {
+    .welcome {
+
+        padding-top: 5rem;
+        padding-bottom: 12rem;
+    }
     .intro h2 {
         margin-left: -9rem;
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 5rem;
         letter-spacing: .2rem;
-        line-height: 4rem; 
+        line-height: 1.2;
     }
     .intro h1 {
         margin-left: -9rem;
@@ -1216,6 +1220,10 @@ margin-left: ;
     }
     .intro {
         margin: 3rem;
+    }
+    .head-shot {
+        height: 400px;
+        width: 400px;
     }
     .about-container {
         margin-left: 8rem;
