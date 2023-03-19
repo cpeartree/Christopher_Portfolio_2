@@ -252,6 +252,7 @@
         font-weight: 200;
         font-size: 1rem;
         letter-spacing: .1rem;
+        line-height: 1.3rem;
     }
     .intro h2 {
         font-weight: 700;
@@ -263,6 +264,7 @@
         font-weight: 200;
         font-size: 1rem;
         letter-spacing: .1rem;
+        line-height: 1.3rem;
 
     }
     .main-timeline9 a {
@@ -684,11 +686,15 @@ MEDIA QUERIES
         font-weight: 200;
         font-size: 1.2rem;
         letter-spacing: .1rem;
+        line-height: 1.4;
+
     }
     .intro p {
         font-weight: 200;
         font-size: 1.2rem;
         letter-spacing: .1rem;
+        line-height: 1.4;
+
     }
     .feat-head h4{
     font-size: 1rem;
