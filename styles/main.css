@@ -258,6 +258,7 @@
         font-weight: 700;
         font-size: 1.2rem;
         letter-spacing: .2rem;
+        line-height: 2rem;
         
     }
     .intro p {
@@ -552,6 +553,10 @@ MEDIA QUERIES
     .intro {
         margin: 1rem;
     }
+    .intro h1 {
+        line-height: 1.5;
+
+    }
     .intro h2 {
         font-weight: 700;
         font-size: 1.7rem;
@@ -681,6 +686,7 @@ MEDIA QUERIES
         font-weight: 700;
         font-size: 2.2rem;
         letter-spacing: .2rem;
+        line-height: 2.7rem;
     }
     .intro h1 {
         font-weight: 200;
@@ -941,6 +947,10 @@ MEDIA QUERIES
 
     margin-bottom: 3rem;
 }
+.intro h2 {
+    line-height: 3.4rem;
+    
+};
 .about-container {
     display:flex;
     margin: 3rem;
@@ -1222,8 +1232,8 @@ span {
         margin: 3rem;
     }
     .head-shot {
-        height: 400px;
-        width: 400px;
+        height: 450px;
+        width: 450px;
     }
     .about-container {
         margin-left: 8rem;
