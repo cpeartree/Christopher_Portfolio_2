@@ -716,6 +716,10 @@ MEDIA QUERIES
     .about {
         order: 2;
     }
+    .about-container {
+    display:flex;
+    justify-content: center;
+} 
     .about-selfie {
         margin-top: 4.5rem;
     }
@@ -954,7 +958,6 @@ MEDIA QUERIES
 .about-container {
     display:flex;
     margin: 3rem;
-    
 } 
 span {
     font-size: 5rem;
