@@ -529,9 +529,9 @@
 .artifact-button {
     justify-content: space-between
 }
-.card-text .btn {
+/* .card-text .btn {
     margin-left: 2rem;
-}
+} */
 /**********************************************************************
 MEDIA QUERIES
 ***********************************************************************/
@@ -812,6 +812,9 @@ MEDIA QUERIES
       .user-goals {
         max-width: 80%;
         margin: 0 auto;
+      }
+      .card-text .btn {
+        margin-left: 1rem;
       }
 
 
@@ -1175,7 +1178,7 @@ span {
     display: none;
 }
 .card-text .btn {
-    margin-left: 11rem;
+    margin-left: 1rem;
   }
 .bn3637 {
     display: inline-flex;
