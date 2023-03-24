@@ -21,9 +21,6 @@
         flex-grow: 1;
     }
 
-    section {
-        padding-bottom: 15px;
-    }
 /****** Helper ******/
     .flex {
         display: flex;
