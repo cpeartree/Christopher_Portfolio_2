@@ -123,6 +123,9 @@
 .petuina-bio ul {
     margin-left: -10px;
 }
+.pitch {
+    padding-top: 1rem;
+}
 
 /****** IMAGES ******/
     .head-shot {
@@ -608,10 +611,11 @@
 }
 
 .bn3637 {
+    margin-left: 1rem;  
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    padding: 0.7rem 2rem;
+    padding: 0.3rem .5rem;
     font-weight: 400;
     font-size: .7rem;
     letter-spacing: .4rem;
@@ -802,7 +806,7 @@ MEDIA QUERIES
     }
     .intro p {
         font-weight: 200;
-        font-size: 1.2rem;
+        font-size: .7rem;
         letter-spacing: .1rem;
         line-height: 1.4;
 
@@ -920,9 +924,7 @@ MEDIA QUERIES
         max-width: 80%;
         margin: 0 auto;
       }
-      .card-text .btn {
-        margin-left: 1rem;
-      }
+
 
 
 }
@@ -1010,11 +1012,7 @@ MEDIA QUERIES
     
         }
         
-        .card-content .card-desc {
-            font-size: .6rem;
-            
-    
-        }
+
         .card-content .card-dis {
             font-size: .8rem;
     
@@ -1039,7 +1037,7 @@ MEDIA QUERIES
             display: inline-flex;
             align-items: center;
             justify-content: center;
-            padding: 0.6rem 1.4rem;
+            padding: 0.3rem .5rem;
             font-weight: 400;
             font-size: .8rem;
             letter-spacing: .4rem;
@@ -1064,7 +1062,10 @@ MEDIA QUERIES
 .intro h2 {
     line-height: 3.4rem;
     
-};
+}
+.intro p {
+    font-size: 1rem;
+}
 .about-container {
     display:flex;
     margin: 3rem;
@@ -1168,7 +1169,7 @@ span {
     margin-right: 5rem;
 }
 .head-shot {
-    margin-top: 4rem;
+    margin-top: 1rem;
 
 }
 .thumb-img {
@@ -1183,26 +1184,18 @@ span {
 
 }
 .intro h2 {
-    margin-left: -4rem;
     font-weight: 700;
     font-size: 3rem;
     letter-spacing: .2rem;
     line-height: 4rem; 
 }
 .intro h1 {
-    margin-left: -4rem;
     font-weight: 200;
     font-size: 1.7rem;
     letter-spacing: .1rem;
     line-height: 3rem;
 }
-.intro p {
-    margin-left: -4rem;
-    font-weight: 200;
-    font-size: 1.7rem;
-    letter-spacing: .1rem;
-    line-height: 3rem;
-}
+
 .feature-section {
     gap: 16px;
 }
@@ -1248,28 +1241,16 @@ span {
     }
     
     .intro h2 {
-        margin-left: -9rem;
+        /* margin-left: -9rem;
         font-weight: 700;
         font-size: 5rem;
         letter-spacing: .2rem;
-        line-height: 1.2;
+        line-height: 1.2; */
     }
-    .intro h1 {
-        margin-left: -9rem;
-        font-weight: 200;
-        font-size: 1.7rem;
-        letter-spacing: .1rem;
-        line-height: 3rem;
-    }
-    .intro p {
-        margin-left: -9rem;
-        font-weight: 200;
-        font-size: 1.7rem;
-        letter-spacing: .1rem;
-        line-height: 3rem;
-    }
+
+
     .intro {
-        margin: 3rem;
+        margin: 3rem 5rem;
     }
     .head-shot {
         height: 450px;
@@ -1306,7 +1287,7 @@ span {
     }
     .card-text {
         color: #475826;
-        padding: 1.2rem;
+        padding: 1.4rem;
         text-decoration: none;
         margin-left: 37rem;
         margin-top: -20rem;
@@ -1349,14 +1330,12 @@ span {
     .card-img .banner {
         display: none;
     }
-    .card-text .btn {
-        margin-left: 1rem;
-      }
+
     .bn3637 {
         display: inline-flex;
         align-items: center;
         justify-content: center;
-        padding: 0.6rem 1.4rem;
+        padding: 0.3rem .5rem;
         font-weight: 400;
         font-size: 1rem;
         letter-spacing: .4rem;
@@ -1369,5 +1348,5 @@ span {
         border-radius: 3rem;
       }
 
-}
+    }
 
