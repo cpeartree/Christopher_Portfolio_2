@@ -329,10 +329,6 @@
 .art-intro-category h3 {
     padding-bottom: .7rem;
 }
-.peace:hover::after {
-    content: "Überschrift";
-  }
-
 /********* TYPO ANIMATIN **********/
 .animate-reveal {
     opacity: 0;
