@@ -356,6 +356,12 @@
          -o-animation-delay: 650ms;
             animation-delay: 650ms;
   }
+  .animate-fourth {
+    -webkit-animation-delay: 750ms;
+       -moz-animation-delay: 750ms;
+         -o-animation-delay: 750ms;
+            animation-delay: 750ms;
+  }
   
   @-webkit-keyframes reveal {
     0% {
