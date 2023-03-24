@@ -703,8 +703,10 @@ MEDIA QUERIES
 
     }
     .feat-head h4{
+    margin-top: 3rem;
     font-size: 1rem;
     font-weight: 400;
+    margin-left: 3rem;
     }
     span {
         font-size: 60px;
@@ -1211,7 +1213,7 @@ span {
     .welcome {
         margin: -1rem;
         padding-top: 5rem;
-        padding-bottom: 12rem;
+        padding-bottom: 5rem;
     }
     .intro h2 {
         margin-left: -9rem;
