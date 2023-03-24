@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 685.18 854.81">
+  <defs>
+    <style>
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        fill: none;
+      }
+
+      .cls-5 {
+        clip-path: url(#clippath);
+      }
+
+      .cls-6 {
+        fill: #231f20;
+      }
+
+      .cls-7 {
+        fill: #475826;
+      }
+
+      .cls-2 {
+        stroke-width: 39px;
+      }
+
+      .cls-2, .cls-3, .cls-4 {
+        stroke: #231f20;
+      }
+
+      .cls-3 {
+        stroke-linecap: round;
+        stroke-width: 40.65px;
+      }
+
+      .cls-3, .cls-4 {
+        stroke-linejoin: round;
+      }
+
+      .cls-4 {
+        stroke-width: 18px;
+      }
+    </style>
+    <clipPath id="clippath">
+      <rect class="cls-1" x="0" width="685.18" height="854.81"/>
+    </clipPath>
+  </defs>
+  <g class="cls-5">
+    <path class="cls-6" d="m566.14,76.36c3.88-11.84,18.49-44.66,39.13-53.76,7.61-3.36,15.39-3.01,24.49,1.09"/>
+    <path class="cls-3" d="m566.14,76.36c3.88-11.84,18.49-44.66,39.13-53.76,7.61-3.36,15.39-3.01,24.49,1.09"/>
+    <path class="cls-7" d="m335.21,778.63c159.68,90.49,305.71,86.91,306.11-116.53.28-136.99-103.21-132.08,9.1-389.08C728.06,95.33,488.05,16.58,409.57,104.1c-27.25,30.39-77.66,164.17-189.11,251.52-77.78,60.97-149.67,98.94-183.97,164.86-59.53,114.38,48.1,195.52,156.8,209.61,61.08,7.92,122.39,37.48,141.91,48.54"/>
+    <path class="cls-2" d="m335.21,778.63c159.68,90.49,305.71,86.91,306.11-116.53.28-136.99-103.21-132.08,9.1-389.08C728.06,95.33,488.05,16.58,409.57,104.1c-27.25,30.39-77.66,164.17-189.11,251.52-77.78,60.97-149.67,98.94-183.97,164.86-59.53,114.38,48.1,195.52,156.8,209.61,61.08,7.92,122.39,37.48,141.91,48.54Z"/>
+  </g>
+  <rect class="cls-6" x="398.93" y="430.45" width="172.11" height="43.25" transform="translate(-177.8 469.56) rotate(-44.5)"/>
+  <rect class="cls-4" x="398.93" y="430.45" width="172.11" height="43.25" transform="translate(-177.8 469.56) rotate(-44.5)"/>
+  <rect class="cls-6" x="464.17" y="274.93" width="43.25" height="172.11" transform="translate(-113.72 444.01) rotate(-44.5)"/>
+  <rect class="cls-4" x="464.17" y="274.93" width="43.25" height="172.11" transform="translate(-113.72 444.01) rotate(-44.5)"/>
+  <rect class="cls-6" x="146.05" y="512.88" width="172.11" height="43.25" transform="translate(-308.08 315.95) rotate(-44.5)"/>
+  <rect class="cls-4" x="146.05" y="512.88" width="172.11" height="43.25" transform="translate(-308.08 315.95) rotate(-44.5)"/>
+  <rect class="cls-6" x="209.66" y="539.54" width="43.25" height="172.11" transform="translate(-372.16 341.5) rotate(-44.5)"/>
+  <rect class="cls-4" x="209.66" y="539.54" width="43.25" height="172.11" transform="translate(-372.16 341.5) rotate(-44.5)"/>
+  <rect class="cls-6" x="339.42" y="288.9" width="43.25" height="413.24"/>
+  <rect class="cls-4" x="339.42" y="288.9" width="43.25" height="413.24"/>
+</svg>
