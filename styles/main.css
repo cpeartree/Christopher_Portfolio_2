@@ -329,6 +329,10 @@
 .art-intro-category h3 {
     padding-bottom: .7rem;
 }
+.visually-hidden {
+    visibility: hidden;
+}
+
 /********* TYPO ANIMATIN **********/
 .animate-reveal {
     opacity: 0;
