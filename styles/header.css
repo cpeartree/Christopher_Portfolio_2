@@ -103,9 +103,8 @@
         top: unset;
         position: fixed;
         bottom: 0;
-        width: 100%;
-        height: auto;
-    }
+        width: 100vw;    }
+        
     .site-header__logo img {
         width: 7rem;
 
