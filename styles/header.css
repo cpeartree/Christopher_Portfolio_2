@@ -3,7 +3,7 @@
     display: block;
     width: 100vw;
     height: 3rem;
-    background: #9ea57f;
+    background: #b6be93;
     z-index: 99999;
 }
 
@@ -131,8 +131,8 @@
         display: block;
         width: 100vw;
         height: 3rem;
-        background: rgb(158,165,127);
-        background: linear-gradient(180deg, rgba(158,165,127,1) 0%, rgba(158,165,127,0.9374343487394958) 75%, rgba(250,240,225,0) 100%);
+        background: rgb(182,190,147);
+        background: linear-gradient(180deg, rgba(182,190,147,1) 0%, rgba(182,190,147,0.9276304271708683) 70%, rgba(250,240,225,0) 100%);
     }
 
     .site-header__menu {
@@ -215,10 +215,12 @@
 @media (min-width: 1024px) {
 
     .site-header__menu a {
-    font-size: .8rem;
- 
-
+    font-size: 1rem;
     }  
+    .site-header__logo img {
+        width: 9.5rem;
+    
+    }
 }
 @media (min-width: 1200px) {
     .site-header__logo img {
