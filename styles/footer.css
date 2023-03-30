@@ -5,6 +5,8 @@
 	width: 100vw;
 	padding-bottom: 3rem;
 	background-color: #D5D2BA;
+	z-index: -99;
+	padding-top: 2rem;
 
 }
 .site-footer img {

@@ -74,7 +74,7 @@
     .page-content {
         width: 100%;
         padding-top: 2rem;
-        padding-bottom: 5rem;
+        /* padding-bottom: 5rem; */
     }
     .about-page-content {
         width: 100%;
@@ -482,6 +482,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
+    /* margin-bottom: 1.9rem; */
     padding-bottom: 1.9rem;
     background-color: #FCF5EB;
     width: 100%;
@@ -648,7 +649,7 @@ MEDIA QUERIES
     .page-content {
         margin: auto;
         padding-top: 4rem;
-        padding-bottom: 3rem;
+        /* padding-bottom: 3rem; */
     }
     .feat-head {
         padding-right: 14rem;
@@ -785,7 +786,7 @@ MEDIA QUERIES
     .page-content {
         margin: auto;
         padding-top: 6rem;
-        padding-bottom: 2rem;
+        /* padding-bottom: 2rem; */
     } 
 
     .intro {
@@ -1057,7 +1058,7 @@ MEDIA QUERIES
 }
 .page-content {
 
-    margin-bottom: 3rem;
+    /* margin-bottom: 3rem; */
 }
 .intro h2 {
     line-height: 3.4rem;
