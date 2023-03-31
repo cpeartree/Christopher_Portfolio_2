@@ -861,7 +861,7 @@ MEDIA QUERIES
     .about-container {
     display:flex;
     justify-content: center;
-} 
+    } 
     .about-selfie {
         margin-top: 4.5rem;
     }
@@ -870,7 +870,7 @@ MEDIA QUERIES
     }
     .discipline-intro h2 {
         font-weight: 700;
-        font-size: 3rem;
+        font-size: 2.2rem;
         letter-spacing: .2rem;
         padding-bottom: .3rem;
     }  
@@ -965,6 +965,7 @@ MEDIA QUERIES
     }
 
 
+
 }
 
 @media (min-width: 800px) {
@@ -980,7 +981,7 @@ MEDIA QUERIES
     }
     .discipline-intro h2 {
         font-weight: 700;
-        font-size: 4rem;
+        /* font-size: 4rem; */
         letter-spacing: .2rem;
         padding-bottom: .3rem;
     }  
@@ -1024,69 +1025,13 @@ MEDIA QUERIES
             font-weight: 400;
         }
         .card {
-            background-color: #FCF5EB;
-            width: 700px;
-            height: 204px;
+            margin-left: 2rem;
+        }
+          .feat-cards {
             display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
-            border-radius: 15px ;
-            text-decoration: none;
-            /* gap: 16px; */
+            flex-direction: row;
+            margin-bottom: 5px;
         }
-        .card-text {
-            color: #475826;
-            padding: 1.2rem;
-            text-decoration: none;
-            margin-left: 24rem;
-            margin-top: -13.5rem;
-            
-        }
-        .card-content h4 {
-            font-size: 1.2rem;
-            font-weight: 400;
-            line-height: 1.2rem;
-            margin-left: .5rem;
-    
-        }
-        
-
-        .card-content .card-dis {
-            font-size: .8rem;
-    
-        }
-        
-        .card img {
-            width: auto;
-            height: 204px;
-            max-width: 400px;
-            overflow: hidden;
-            object-fit: cover;
-            border-radius: 15px 0 0 15px;
-        } 
-        .card-img .banner_small{
-            display: block;
-        }
-        .card-img .banner {
-            display: none;
-        }
-        
-        .bn3637 {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.3rem .4rem;
-            font-weight: 400;
-            font-size: .7rem;
-            letter-spacing: .4rem;
-            text-align: center;
-            text-decoration: none;
-            color: #FAF0E1;
-            background-color: #808E4A;
-            backface-visibility: hidden;
-            border: 0.2rem solid transparent;
-          }
         }
 
 @media (min-width: 1024px) {
@@ -1197,6 +1142,73 @@ span {
 .market p {
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
+}
+       .card {
+            background-color: #FCF5EB;
+            width: 700px;
+            height: 204px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+            border-radius: 15px ;
+            text-decoration: none;
+        }
+        .card-text {
+            color: #475826;
+            padding: 1.2rem;
+            text-decoration: none;
+            margin-left: 24rem;
+            margin-top: -13.5rem;
+            
+        }
+        .card-content h4 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.2rem;
+            margin-left: .5rem;
+    
+        }
+        
+
+        .card-content .card-dis {
+            font-size: .8rem;
+    
+        }
+        
+        .card img {
+            width: auto;
+            height: 204px;
+            max-width: 400px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 15px 0 0 15px;
+        } 
+        .card-img .banner_small{
+            display: block;
+        }
+        .card-img .banner {
+            display: none;
+        }
+        
+        .bn3637 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.3rem .4rem;
+            font-weight: 400;
+            font-size: .7rem;
+            letter-spacing: .4rem;
+            text-align: center;
+            text-decoration: none;
+            color: #FAF0E1;
+            background-color: #808E4A;
+            backface-visibility: hidden;
+            border: 0.2rem solid transparent;
+          }
+.feat-cards {
+    display: flex;
+    flex-direction: column;
 }
 
 }
