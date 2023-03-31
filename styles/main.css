@@ -85,7 +85,7 @@
         padding-bottom: 2rem;
     }
     .about-page-content p {
-        padding-bottom: 1.5rem;
+        padding-bottom: 1rem;
         line-height: 1.5rem;
     }
 
@@ -115,10 +115,11 @@
     }
     .discipline-intro {
         margin: 3rem;
+        justify-content: space-around;
     }
     .cato-section {
     display: block;
-    padding-bottom: 3rem;
+    padding-bottom: 1rem;
 }
 .petuina-bio {
     display: block;
@@ -714,7 +715,7 @@ MEDIA QUERIES
         display: block;
         margin-right: auto;
         margin-left: auto;
-        max-width: 380px;
+        /* max-width: 380px; */
         padding: .5rem 1rem 1rem 2rem;
         /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
@@ -751,7 +752,7 @@ MEDIA QUERIES
     }
     .functionallity {
         display: block;
-        max-width: 600px;
+        /* max-width: 600px; */
         margin: 0 auto;
         /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
@@ -895,7 +896,7 @@ MEDIA QUERIES
         max-width: 400px; 
     }
     .functionallity {
-        max-width: 650px;
+        /* max-width: 650px; */
     }
 
     .petuina-circle {
@@ -1022,7 +1023,7 @@ MEDIA QUERIES
             padding: 1.2rem;
             text-decoration: none;
             margin-left: 24rem;
-            margin-top: -14rem;
+            margin-top: -13.5rem;
             
         }
         .card-content h4 {
@@ -1227,20 +1228,9 @@ span {
     font-weight: 400;
 }
 
-.discipline-intro h2 {
-    font-weight: 700;
-    font-size: 3rem;
-    letter-spacing: .2rem;
-    padding-bottom: .3rem;
-}  
-.discipline-intro h1 {
-    font-weight: 400;
-    font-size: 1.75rem;
-    letter-spacing: .2rem;
-}
-.discipline-intro {
-    margin: 3rem 6rem 3rem 6rem;
-}
+
+
+
 
 
   .about-container{
