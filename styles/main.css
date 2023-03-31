@@ -149,6 +149,7 @@
         margin-bottom: 2rem;
         display: flex;
         justify-content: center;
+
     }
     .card-img .banner_small{
         display: none;
@@ -728,7 +729,6 @@ MEDIA QUERIES
         margin-left: auto;
         /* max-width: 380px; */
         padding: .5rem 1rem 1rem 2rem;
-        /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
     }
     .art-intro-section {
