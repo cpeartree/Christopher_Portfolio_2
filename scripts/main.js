@@ -9,4 +9,3 @@ menu_open.addEventListener('click', () => {
 menu_close.addEventListener('click', () => {
     menu.classList.remove('open');
 });
-
