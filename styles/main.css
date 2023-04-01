@@ -353,7 +353,9 @@
 .card-desc {
     line-height: 1.25rem;
     margin-top: 2.5rem;
-
+}
+.zara-reflection p{
+    padding-top: 1rem;
 }
 
 /********* TYPO ANIMATIN **********/
@@ -629,6 +631,9 @@
     .zara-slides {
         padding-top:1rem;
         margin: 1rem;
+    }
+    .zara-reflection {
+        margin-top: 4rem;
     }
 /********* BUTTONS *********/
 .btn {
