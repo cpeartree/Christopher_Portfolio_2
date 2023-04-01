@@ -357,7 +357,10 @@
 .zara-text p{
     padding-top: 1rem;
 }
-
+.intro a {
+    text-decoration: none;
+    color: #475826;
+}
 /********* TYPO ANIMATIN **********/
 .animate-reveal {
     opacity: 0;
