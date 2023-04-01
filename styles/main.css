@@ -361,6 +361,17 @@
 
     color: #475826;
 }
+
+.acknowledge {
+    margin-top: 3rem;
+}
+.acknowledge p{
+    font-size: .5rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+
+}
 /********* TYPO ANIMATIN **********/
 .animate-reveal {
     opacity: 0;
