@@ -633,8 +633,9 @@
         margin: 1rem;
     }
     .zara-reflection {
-        margin-top: 4rem;
-    }
+        padding-top:1rem;
+        margin-top: 1rem;
+        }
 /********* BUTTONS *********/
 .btn {
     display: flex;
