@@ -354,7 +354,7 @@
     line-height: 1.25rem;
     margin-top: 2.5rem;
 }
-.zara-reflection p{
+.zara-text p{
     padding-top: 1rem;
 }
 
@@ -629,12 +629,11 @@
         }
 
     .zara-slides {
-        padding-top:1rem;
         margin: 1rem;
     }
-    .zara-reflection {
+    .zara-text {
         padding-top:1rem;
-        margin-top: 1rem;
+        margin-top: 3rem;
         }
 /********* BUTTONS *********/
 .btn {
