@@ -365,7 +365,7 @@
     margin-top: 3rem;
 }
 .acknowledge p{
-    font-size: .5rem;
+    font-size: .8rem;
     margin-left: 5rem;
     margin-right: 5rem;
     margin-bottom: 1rem;
@@ -926,7 +926,7 @@ MEDIA QUERIES
         max-width: 400px; 
     }
     .functionallity {
-        max-width: 650px;
+        /* max-width: 650px; */
     }
 
     .petuina-circle {
