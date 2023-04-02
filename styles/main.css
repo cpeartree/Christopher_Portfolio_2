@@ -49,7 +49,6 @@
     .strech {
         align-items: stretch;
     }
-
     .flex-end {
         justify-content: flex-end;
     }
@@ -120,18 +119,18 @@
     .cato-section {
     display: block;
     padding-bottom: 1.5rem;
-}
-.petuina-bio {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-.petuina-bio ul {
-    margin-left: -10px;
-}
-.pitch {
-    padding-top: 1rem;
-}
+    }
+    .petuina-bio {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .petuina-bio ul {
+        margin-left: -10px;
+    }
+    .pitch {
+        padding-top: 1rem;
+    }
 
 /****** IMAGES ******/
     .head-shot {
@@ -600,7 +599,7 @@
         display: flex;
         margin-left: 0;
         max-width: 10rem;
-}
+    }
     .art-container h1 {
         font-weight: 400;
         font-size: 2rem;
@@ -616,7 +615,6 @@
         font-weight: 400;
         font-size: 1.2rem;
         /* margin-top: 1.5rem; */
-
     }
     .art-container h4 {
         font-weight: 400;
@@ -632,10 +630,10 @@
         padding: .5rem 1rem 1rem 2rem;
         box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 3rem;
-}
-.art-intro-category {
-    padding-bottom: 1.5rem;
-}
+    }
+    .art-intro-category {
+        padding-bottom: 1.5rem;
+    }
     .market {
         padding: .5rem 1rem 1rem 1rem;
         box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
@@ -690,9 +688,9 @@
 .artifact-button {
     justify-content: space-between
 }
-/* .card-text .btn {
+.card-text .btn {
     margin-left: 2rem;
-} */
+}
 /**********************************************************************
 MEDIA QUERIES
 ***********************************************************************/
@@ -832,7 +830,6 @@ MEDIA QUERIES
         max-width: 150px;
     }
 
-
 }
 
 @media (min-width: 736px){
@@ -863,9 +860,7 @@ MEDIA QUERIES
         font-size: .7rem;
         letter-spacing: .1rem;
         line-height: 1.4;
-
     }
-
     .feat-head h4{
     margin-top: 3rem;
     font-size: 1rem;
@@ -883,8 +878,8 @@ MEDIA QUERIES
         order: 2;
     }
     .about-container {
-    display:flex;
-    justify-content: center;
+        display:flex;
+        justify-content: center;
     } 
     .about-selfie {
         margin-top: 4.5rem;
@@ -931,7 +926,7 @@ MEDIA QUERIES
         max-width: 400px; 
     }
     .functionallity {
-        /* max-width: 650px; */
+        max-width: 650px;
     }
 
     .petuina-circle {
@@ -988,8 +983,6 @@ MEDIA QUERIES
         height: 250px; 
     }
 
-
-
 }
 
 @media (min-width: 800px) {
@@ -1033,30 +1026,30 @@ MEDIA QUERIES
         margin-left: 3rem;
     }
     
-        /******** ARTIFACT CARDS **********/
-        .welcome {
-            display: flex;
-            padding: 5rem 0 5rem 0;
-        }
+    /******** ARTIFACT CARDS **********/
+    .welcome {
+        display: flex;
+        padding: 5rem 0 5rem 0;
+    }
 
-        .feat-head {
-            padding-right: 37rem;
-            font-size: 1.2rem;
-            font-weight: 400;
+    .feat-head {
+        padding-right: 37rem;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .feat-head h4{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .card {
+        margin-left: 2rem;
+    }
+        .feat-cards {
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 5px;
+    }
 }
-        .feat-head h4{
-            font-size: 1.2rem;
-            font-weight: 400;
-        }
-        .card {
-            margin-left: 2rem;
-        }
-          .feat-cards {
-            display: flex;
-            flex-direction: row;
-            margin-bottom: 5px;
-        }
-        }
 
 @media (min-width: 1024px) {
 .welcome {
@@ -1132,8 +1125,6 @@ span {
         height: 520px;
         object-fit: cover;
         margin-top: -50px;
-
-
     }
 .persona h5 {
     padding-bottom: 1.5rem;
@@ -1167,69 +1158,69 @@ span {
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
 }
-       .card {
-            background-color: #FCF5EB;
-            width: 700px;
-            height: 204px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
-            border-radius: 15px ;
-            text-decoration: none;
-        }
-        .card-text {
-            color: #475826;
-            padding: 1.2rem;
-            text-decoration: none;
-            margin-left: 24rem;
-            margin-top: -13.5rem;
-            
-        }
-        .card-content h4 {
-            font-size: 1.2rem;
-            font-weight: 400;
-            line-height: 1.2rem;
-            margin-left: .5rem;
+.card {
+    background-color: #FCF5EB;
+    width: 700px;
+    height: 204px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+    border-radius: 15px ;
+    text-decoration: none;
+}
+.card-text {
+    color: #475826;
+    padding: 1.2rem;
+    text-decoration: none;
+    margin-left: 24rem;
+    margin-top: -13.5rem;
     
-        }
-        
+}
+.card-content h4 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    margin-left: .5rem;
 
-        .card-content .card-dis {
-            font-size: .8rem;
-    
-        }
-        
-        .card img {
-            width: auto;
-            height: 204px;
-            max-width: 400px;
-            overflow: hidden;
-            object-fit: cover;
-            border-radius: 15px 0 0 15px;
-        } 
-        .card-img .banner_small{
-            display: block;
-        }
-        .card-img .banner {
-            display: none;
-        }
-        
-        .bn3637 {
-            display: inline-flex;
-            align-items: center;
-            justify-content: center;
-            padding: 0.3rem .4rem;
-            font-weight: 400;
-            font-size: .7rem;
-            letter-spacing: .4rem;
-            text-align: center;
-            text-decoration: none;
-            color: #FAF0E1;
-            background-color: #808E4A;
-            backface-visibility: hidden;
-            border: 0.2rem solid transparent;
-          }
+}
+
+
+.card-content .card-dis {
+    font-size: .8rem;
+
+}
+
+.card img {
+    width: auto;
+    height: 204px;
+    max-width: 400px;
+    overflow: hidden;
+    object-fit: cover;
+    border-radius: 15px 0 0 15px;
+} 
+.card-img .banner_small{
+    display: block;
+}
+.card-img .banner {
+    display: none;
+}
+
+.bn3637 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0.3rem .4rem;
+    font-weight: 400;
+    font-size: .7rem;
+    letter-spacing: .4rem;
+    text-align: center;
+    text-decoration: none;
+    color: #FAF0E1;
+    background-color: #808E4A;
+    backface-visibility: hidden;
+    border: 0.2rem solid transparent;
+    }
 .feat-cards {
     display: flex;
     flex-direction: column;
@@ -1280,12 +1271,6 @@ span {
     font-size: 1.4rem;
     font-weight: 400;
 }
-
-
-
-
-
-
   .about-container{
     margin-top: 2rem;
     margin-left: 5rem;
@@ -1413,6 +1398,4 @@ span {
         border: 0.3rem solid transparent;
         border-radius: 3rem;
       }
-
     }
-
