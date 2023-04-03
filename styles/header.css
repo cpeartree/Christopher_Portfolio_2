@@ -204,7 +204,7 @@
 }
     .site-header__menu a {
         color: #475826;
-        font-size: .6rem;
+        font-size: .7rem;
         display: inline-block;
         border-bottom: 50px;
         padding: unset;
@@ -215,7 +215,7 @@
 @media (min-width: 1024px) {
 
     .site-header__menu a {
-    font-size: 1rem;
+    font-size: .9rem;
     }  
     .site-header__logo img {
         width: 9.5rem;
