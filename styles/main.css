@@ -1042,7 +1042,7 @@ MEDIA QUERIES
         font-weight: 400;
     }
     .card {
-        margin-left: 2rem;
+        margin: 2rem;
     }
         .feat-cards {
         display: flex;
