@@ -971,8 +971,7 @@ MEDIA QUERIES
         font-size: 2rem;
       }
       .page-content li {
-        font-size: 1rem;
-        line-height: 2rem;
+        line-height: 1.5rem;
       }
       .user-goals {
         max-width: 80%;
