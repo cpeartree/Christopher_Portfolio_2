@@ -878,7 +878,7 @@ MEDIA QUERIES
     }
     .discipline-intro h2 {
         font-weight: 700;
-        font-size: 3rem;
+        /* font-size: 3rem; */
         letter-spacing: .2rem;
         padding-bottom: .3rem;
     }  
