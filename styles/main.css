@@ -267,7 +267,10 @@
         letter-spacing: .2rem;
         line-height: 1.2rem;
         padding-bottom: 1rem;
-        
+    
+    }
+    .intro a {
+        color: #475826;
     }
     .intro p {
         font-weight: 200;
