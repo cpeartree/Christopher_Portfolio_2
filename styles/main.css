@@ -1191,7 +1191,8 @@ span {
 
 .welcome {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     padding-top: 2rem;
     /* padding-bottom: 10rem; */
 
