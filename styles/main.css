@@ -49,6 +49,7 @@
     .strech {
         align-items: stretch;
     }
+
     .flex-end {
         justify-content: flex-end;
     }
@@ -80,13 +81,6 @@
         padding-top: 2rem;
 
     }
-    .about-page-content h2 {
-        padding-bottom: 2rem;
-    }
-    .about-page-content p {
-        padding-bottom: 1rem;
-        line-height: 1.5rem;
-    }
 
     .intro {
         padding-left: 2rem;
@@ -114,23 +108,28 @@
     }
     .discipline-intro {
         margin: 3rem;
-        justify-content: space-around;
     }
     .cato-section {
     display: block;
-    padding-bottom: 1.5rem;
-    }
-    .petuina-bio {
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    .petuina-bio ul {
-        margin-left: -10px;
-    }
-    .pitch {
-        padding-top: 1rem;
-    }
+    padding-bottom: 3rem;
+}
+.petuina-bio {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.petuina-bio ul {
+    margin-left: -10px;
+}
+.pitch {
+    padding-top: 1rem;
+}
+.about-container p{
+    padding-bottom: 1rem;
+}
+.about-container h2 {
+    line-height: 3rem;
+}
 
 /****** IMAGES ******/
     .head-shot {
@@ -148,7 +147,6 @@
         margin-bottom: 2rem;
         display: flex;
         justify-content: center;
-
     }
     .card-img .banner_small{
         display: none;
@@ -165,8 +163,6 @@
         justify-content: space-around;
         margin-top: 1rem;
         margin-bottom: 1rem;
-        box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
-
     }
     .petuina {
         display: block;
@@ -174,8 +170,7 @@
         margin-right: auto;
         height: 300px;
         width: auto;
-        /* padding: 1rem; */
-        box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
+        padding: 1rem;
     }
     .cato-logo {
         max-width: 200px;
@@ -229,19 +224,11 @@
     }
     .cato-wireframes {
         display: flex;
-        justify-items: center;
         flex-direction: column;
         align-items: center;
     }
-    .cato-wireframes img {
-        max-width: 380px;
-        padding: 1rem;
-    }
-    .figma-embed {
-        border: 1px solid rgba(0, 0, 0, 0.1);
-        width: 360px;
-        height: 200px; 
-    }
+
+
 
 /****** TYPOGRAPHY ******/
     h1 {
@@ -279,7 +266,11 @@
         font-size: 1.2rem;
         letter-spacing: .2rem;
         line-height: 1.2rem;
-        
+        padding-bottom: 1rem;
+    
+    }
+    .intro a {
+        color: #475826;
     }
     .intro p {
         font-weight: 200;
@@ -351,26 +342,9 @@
 }
 .card-desc {
     line-height: 1.25rem;
-    margin-top: 2.5rem;
-}
-.zara-text p{
-    padding-top: 1rem;
-}
-.intro a {
-
-    color: #475826;
-}
-
-.acknowledge {
-    margin-top: 3rem;
-}
-.acknowledge p{
-    font-size: .8rem;
-    margin-left: 5rem;
-    margin-right: 5rem;
-    margin-bottom: 1rem;
 
 }
+
 /********* TYPO ANIMATIN **********/
 .animate-reveal {
     opacity: 0;
@@ -536,7 +510,7 @@
 .card {
     color: #FCF5EB;
     width: 350px;
-    height: 350px;
+    height: 380px;
     display: flex;
     justify-content: center;
     box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
@@ -557,13 +531,13 @@
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.2rem;
-    margin-left: .4rem;
+    margin: 1rem;
 
 }
 
 .card-content p {
     font-size: 1rem;
-    margin: .5rem;
+    margin: 1rem;
 }
 
 .card img {
@@ -599,7 +573,7 @@
         display: flex;
         margin-left: 0;
         max-width: 10rem;
-    }
+}
     .art-container h1 {
         font-weight: 400;
         font-size: 2rem;
@@ -615,6 +589,7 @@
         font-weight: 400;
         font-size: 1.2rem;
         /* margin-top: 1.5rem; */
+
     }
     .art-container h4 {
         font-weight: 400;
@@ -630,22 +605,14 @@
         padding: .5rem 1rem 1rem 2rem;
         box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 3rem;
-    }
-    .art-intro-category {
-        padding-bottom: 1.5rem;
-    }
+}
+.art-intro-category {
+    padding-bottom: 1.5rem;
+}
     .market {
         padding: .5rem 1rem 1rem 1rem;
         box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 1rem;
-        }
-
-    .zara-slides {
-        margin: 1rem;
-    }
-    .zara-text {
-        padding-top:1rem;
-        margin-top: 3rem;
         }
 /********* BUTTONS *********/
 .btn {
@@ -653,7 +620,6 @@
     flex-direction: column;
     justify-content: center;
     max-width: fit-content;
-    margin-top: 1.5rem;
 }
 .glam-btn {
     margin-right: auto;
@@ -688,9 +654,9 @@
 .artifact-button {
     justify-content: space-between
 }
-.card-text .btn {
-    margin-left: -.5rem;
-}
+/* .card-text .btn {
+    margin-left: 2rem;
+} */
 /**********************************************************************
 MEDIA QUERIES
 ***********************************************************************/
@@ -749,8 +715,9 @@ MEDIA QUERIES
         display: block;
         margin-right: auto;
         margin-left: auto;
-        /* max-width: 380px; */
+        max-width: 380px;
         padding: .5rem 1rem 1rem 2rem;
+        /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
     }
     .art-intro-section {
@@ -785,7 +752,7 @@ MEDIA QUERIES
     }
     .functionallity {
         display: block;
-        /* max-width: 600px; */
+        max-width: 600px;
         margin: 0 auto;
         /* box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2); */
         margin-bottom: 3rem;
@@ -830,6 +797,7 @@ MEDIA QUERIES
         max-width: 150px;
     }
 
+
 }
 
 @media (min-width: 736px){
@@ -860,6 +828,10 @@ MEDIA QUERIES
         font-size: .7rem;
         letter-spacing: .1rem;
         line-height: 1.4;
+
+    }
+    .btn {
+        margin-top: -.5rem;
     }
     .feat-head h4{
     margin-top: 3rem;
@@ -878,9 +850,9 @@ MEDIA QUERIES
         order: 2;
     }
     .about-container {
-        display:flex;
-        justify-content: center;
-    } 
+    display:flex;
+    justify-content: center;
+} 
     .about-selfie {
         margin-top: 4.5rem;
     }
@@ -889,7 +861,7 @@ MEDIA QUERIES
     }
     .discipline-intro h2 {
         font-weight: 700;
-        font-size: 2.2rem;
+        font-size: 3rem;
         letter-spacing: .2rem;
         padding-bottom: .3rem;
     }  
@@ -926,7 +898,7 @@ MEDIA QUERIES
         max-width: 400px; 
     }
     .functionallity {
-        /* max-width: 650px; */
+        max-width: 650px;
     }
 
     .petuina-circle {
@@ -936,8 +908,8 @@ MEDIA QUERIES
     .petuina {
         width: 350px;
         height:auto;
-        margin: 1rem;
-        }
+        padding: 1rem;
+    }
     .petuina-bio h4 {
         font-size: 1.5rem;
     }
@@ -957,9 +929,6 @@ MEDIA QUERIES
         font-size: 1.2rem;
         padding-bottom: .5rem;
     }
-    .cato-wireframes img {
-        max-width: 600px;
-    }
     .market {
 
         min-width: 750px;
@@ -971,16 +940,15 @@ MEDIA QUERIES
         font-size: 2rem;
       }
       .page-content li {
-        line-height: 1.5rem;
+        font-size: 1rem;
+        line-height: 2rem;
       }
       .user-goals {
         max-width: 80%;
         margin: 0 auto;
       }
-      .figma-embed {
-        width: 600px;
-        height: 250px; 
-    }
+
+
 
 }
 
@@ -997,7 +965,7 @@ MEDIA QUERIES
     }
     .discipline-intro h2 {
         font-weight: 700;
-        /* font-size: 4rem; */
+        font-size: 4rem;
         letter-spacing: .2rem;
         padding-bottom: .3rem;
     }  
@@ -1008,7 +976,7 @@ MEDIA QUERIES
     }
     .art-container h2 {
 
-        font-size: 1.8rem;
+        font-size: 2rem;
         line-height: 3rem;
         margin-bottom: 0.4rem;
     }
@@ -1025,30 +993,86 @@ MEDIA QUERIES
         margin-left: 3rem;
     }
     
-    /******** ARTIFACT CARDS **********/
-    .welcome {
-        display: flex;
-        padding: 5rem 0 5rem 0;
-    }
+        /******** ARTIFACT CARDS **********/
+        .welcome {
+            display: flex;
+            padding: 5rem 0 5rem 0;
+        }
 
-    .feat-head {
-        padding-right: 37rem;
-        font-size: 1.2rem;
-        font-weight: 400;
-    }
-    .feat-head h4{
-        font-size: 1.2rem;
-        font-weight: 400;
-    }
-    .card {
-        margin: 2rem;
-    }
-        .feat-cards {
-        display: flex;
-        flex-direction: row;
-        margin-bottom: 5px;
-    }
+        .feat-head {
+            padding-right: 37rem;
+            font-size: 1.2rem;
+            font-weight: 400;
 }
+        .feat-head h4{
+            font-size: 1.2rem;
+            font-weight: 400;
+        }
+        .card {
+            background-color: #FCF5EB;
+            width: 700px;
+            height: 204px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
+            border-radius: 15px ;
+            text-decoration: none;
+            /* gap: 16px; */
+        }
+        .card-text {
+            color: #475826;
+            padding: 1.2rem;
+            text-decoration: none;
+            margin-left: 24rem;
+            margin-top: -14rem;
+            
+        }
+        .card-content h4 {
+            font-size: 1.2rem;
+            font-weight: 400;
+            line-height: 1.2rem;
+    
+        }
+        
+
+        .card-content .card-dis {
+            font-size: .8rem;
+    
+        }
+        
+        .card img {
+            width: auto;
+            height: 204px;
+            max-width: 400px;
+            overflow: hidden;
+            object-fit: cover;
+            border-radius: 15px 0 0 15px;
+        } 
+        .card-img .banner_small{
+            display: block;
+        }
+        .card-img .banner {
+            display: none;
+        }
+        
+        .bn3637 {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0.3rem .5rem;
+            font-weight: 400;
+            font-size: .8rem;
+            letter-spacing: .4rem;
+            text-align: center;
+            text-decoration: none;
+            color: #FAF0E1;
+            background-color: #808E4A;
+            backface-visibility: hidden;
+            border: 0.3rem solid transparent;
+            border-radius: 3rem;
+          }
+        }
 
 @media (min-width: 1024px) {
 .welcome {
@@ -1060,6 +1084,7 @@ MEDIA QUERIES
 }
 .intro h2 {
     line-height: 3rem;
+    padding-bottom: 1.5rem;
     
 }
 .intro p {
@@ -1124,6 +1149,8 @@ span {
         height: 520px;
         object-fit: cover;
         margin-top: -50px;
+
+
     }
 .persona h5 {
     padding-bottom: 1.5rem;
@@ -1157,78 +1184,6 @@ span {
     font-size: 1.5rem;
     padding-bottom: 1.5rem;
 }
-.card {
-    background-color: #FCF5EB;
-    width: 700px;
-    height: 204px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    box-shadow: 0 8px 12px 0px rgba(0,0,0,0.2);
-    border-radius: 15px ;
-    text-decoration: none;
-}
-.card-text {
-    color: #475826;
-    padding: 1.2rem;
-    text-decoration: none;
-    margin-left: 24rem;
-    margin-top: -13.5rem;
-    
-}
-.card-content h4 {
-    font-size: 1.5rem;
-    font-weight: 400;
-    line-height: 1.5rem;
-    margin-left: .5rem;
-
-}
-.card-content p{
-
-}
-
-.card-content .card-dis {
-    font-size: .9rem;
-
-}
-.btn {
-    margin-top: .8rem;
-}
-
-.card img {
-    width: auto;
-    height: 204px;
-    max-width: 400px;
-    overflow: hidden;
-    object-fit: cover;
-    border-radius: 15px 0 0 15px;
-} 
-.card-img .banner_small{
-    display: block;
-}
-.card-img .banner {
-    display: none;
-}
-
-.bn3637 {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.3rem .4rem;
-    font-weight: 400;
-    font-size: .7rem;
-    letter-spacing: .4rem;
-    text-align: center;
-    text-decoration: none;
-    color: #FAF0E1;
-    background-color: #808E4A;
-    backface-visibility: hidden;
-    border: 0.2rem solid transparent;
-    }
-.feat-cards {
-    display: flex;
-    flex-direction: column;
-}
 
 }
 
@@ -1247,7 +1202,8 @@ span {
 
 .welcome {
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
+    justify-content: center;
     padding-top: 2rem;
     /* padding-bottom: 10rem; */
 
@@ -1256,8 +1212,8 @@ span {
     font-weight: 700;
     font-size: 3rem;
     letter-spacing: .2rem;
-    line-height: 2.6rem; 
-    padding-bottom: 1rem;
+    line-height: 3rem; 
+    padding-bottom: 2rem;
 }
 .intro h1 {
     font-weight: 200;
@@ -1275,6 +1231,23 @@ span {
     font-size: 1.4rem;
     font-weight: 400;
 }
+
+.discipline-intro h2 {
+    font-weight: 700;
+    font-size: 3rem;
+    letter-spacing: .2rem;
+    padding-bottom: .3rem;
+}  
+.discipline-intro h1 {
+    font-weight: 400;
+    font-size: 1.75rem;
+    letter-spacing: .2rem;
+}
+.discipline-intro {
+    margin: 3rem 10rem 3rem 10rem;
+}
+
+
   .about-container{
     margin-top: 2rem;
     margin-left: 5rem;
@@ -1365,7 +1338,7 @@ span {
     
     .card-content p {
         font-size: 1.2rem;
-        margin-left: 1rem;
+        margin: 1rem;
         line-height: 1.4rem;
     }
     .card img {
@@ -1402,4 +1375,6 @@ span {
         border: 0.3rem solid transparent;
         border-radius: 3rem;
       }
+
     }
+
