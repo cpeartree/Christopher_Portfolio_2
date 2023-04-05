@@ -124,6 +124,12 @@
 .pitch {
     padding-top: 1rem;
 }
+.about-container p{
+    padding-bottom: 1rem;
+}
+.about-container h2 {
+    line-height: 3rem;
+}
 
 /****** IMAGES ******/
     .head-shot {
@@ -260,6 +266,7 @@
         font-size: 1.2rem;
         letter-spacing: .2rem;
         line-height: 1.2rem;
+        padding-bottom: 1rem;
         
     }
     .intro p {
@@ -1074,6 +1081,7 @@ MEDIA QUERIES
 }
 .intro h2 {
     line-height: 3rem;
+    padding-bottom: 1.5rem;
     
 }
 .intro p {
@@ -1201,8 +1209,8 @@ span {
     font-weight: 700;
     font-size: 3rem;
     letter-spacing: .2rem;
-    line-height: 2.6rem; 
-    padding-bottom: 1rem;
+    line-height: 3rem; 
+    padding-bottom: 2rem;
 }
 .intro h1 {
     font-weight: 200;
