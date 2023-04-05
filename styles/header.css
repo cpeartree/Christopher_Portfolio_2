@@ -213,10 +213,7 @@
     }  
 }
 @media (min-width: 1024px) {
-
-    .site-header__menu a {
-    font-size: .9rem;
-    }  
+ 
     .site-header__logo img {
         width: 9.5rem;
     
