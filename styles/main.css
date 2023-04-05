@@ -222,6 +222,9 @@
         margin: 1rem;
         max-width: 100px;
     }
+    .cato-wireframes .thumb-img {
+        max-width: 300px;
+    }
     .cato-wireframes {
         display: flex;
         flex-direction: column;
@@ -605,15 +608,20 @@
         padding: .5rem 1rem 1rem 2rem;
         box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 3rem;
-}
-.art-intro-category {
-    padding-bottom: 1.5rem;
-}
+    }
+    .art-intro-category {
+        padding-bottom: 1.5rem;
+    }
     .market {
         padding: .5rem 1rem 1rem 1rem;
         box-shadow: 4px 8px 12px 0px rgba(0,0,0,0.2);
         margin-bottom: 1rem;
         }
+
+        .figma-embed{ 
+            width:65%;
+            height: auto;
+            display:flex; }
 /********* BUTTONS *********/
 .btn {
     display: flex;
@@ -711,6 +719,9 @@ MEDIA QUERIES
     .thumb-img {
         max-width: 100px;
     }
+    .cato-wireframes .thumb-img {
+        max-width: 400px;
+    }
     .functionallity {
         display: block;
         margin-right: auto;
@@ -796,6 +807,9 @@ MEDIA QUERIES
     .thumb-img {
         max-width: 150px;
     }
+    .cato-wireframes .thumb-img {
+        max-width: 400px;
+    }
 
 
 }
@@ -876,6 +890,9 @@ MEDIA QUERIES
     .thumb-img {
         max-width: 200px;
         justify-content: space-around;
+    }
+    .cato-wireframes .thumb-img {
+        max-width: 500px;
     }
     .art-intro-section{
         display: flex;
