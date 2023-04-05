@@ -553,7 +553,10 @@
     font-size: 1.5rem;
     line-height: 2rem;
 }
-
+.acknowledge p {
+    font-size: .7rem;
+    margin: 1rem 3rem;
+}
 
 
 /****** Artifacts ******/
