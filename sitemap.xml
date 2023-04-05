@@ -9,47 +9,62 @@
 
 <url>
   <loc>https://cpeartree.com/</loc>
-  <lastmod>2022-12-04T03:51:49+00:00</lastmod>
+  <lastmod>2023-04-01T21:39:08+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>https://cpeartree.com/index.html</loc>
-  <lastmod>2022-12-04T03:51:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cpeartree.com/uiux.html</loc>
-  <lastmod>2022-12-04T03:51:49+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>https://cpeartree.com/media.html</loc>
-  <lastmod>2022-12-04T03:51:49+00:00</lastmod>
+  <lastmod>2023-04-01T21:39:08+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cpeartree.com/about.html</loc>
-  <lastmod>2022-12-04T03:51:49+00:00</lastmod>
+  <lastmod>2023-04-01T17:27:13+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cpeartree.com/uiux.html</loc>
+  <lastmod>2023-04-01T17:11:47+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cpeartree.com/media.html</loc>
+  <lastmod>2023-03-31T23:26:50+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cpeartree.com/cpoirier_resume2023.pdf</loc>
+  <lastmod>2023-04-01T17:34:38+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cpeartree.com/Artifacts/CatoWeather.html</loc>
+  <lastmod>2023-03-31T23:26:49+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://cpeartree.com/Artifacts/zara.html</loc>
+  <lastmod>2023-04-01T18:19:50+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://cpeartree.com/Artifacts/ChrisPCookies.html</loc>
-  <lastmod>2022-12-04T03:51:49+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-03-31T23:26:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cpeartree.com/Artifacts/S40branding.html</loc>
-  <lastmod>2022-12-04T03:51:50+00:00</lastmod>
-  <priority>0.80</priority>
+  <lastmod>2023-03-31T23:26:49+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cpeartree.com/Artifacts/Glamazon.html</loc>
-  <lastmod>2022-12-04T03:51:50+00:00</lastmod>
+  <lastmod>2023-03-31T23:26:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 <url>
   <loc>https://cpeartree.com/Artifacts/MaiTime.html</loc>
-  <lastmod>2022-12-04T03:51:50+00:00</lastmod>
+  <lastmod>2023-03-31T23:26:49+00:00</lastmod>
   <priority>0.64</priority>
 </url>
 
